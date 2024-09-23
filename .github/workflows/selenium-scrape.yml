@@ -23,11 +23,10 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y chromium-browser chromium-chromedriver
-          sudo ln -sf /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver
 
       - name: Run Selenium Script
         env:
           DISPLAY: ':99.0'
         run: |
           sudo Xvfb :99 -ac &
-          python your_script.py
+          python scripts/reference_scrape.py
