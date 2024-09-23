@@ -23,10 +23,20 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y google-chrome-stable
 
-    - name: Install Specific ChromeDriver Version
+    - name: Install Compatible ChromeDriver Version
       run: |
-        # Use a known compatible version of ChromeDriver
-        wget https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+        # Get Chrome major version
+        CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+' | head -n 1)
+        CHROME_MAJOR_VERSION=$(echo $CHROME_VERSION | cut -d'.' -f1)
+        echo "Chrome Version: $CHROME_VERSION"
+        echo "Chrome Major Version: $CHROME_MAJOR_VERSION"
+
+        # Get the compatible ChromeDriver version for the installed Chrome version
+        LATEST_DRIVER_VERSION=$(curl -sS "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_MAJOR_VERSION}")
+        echo "Latest ChromeDriver Version: $LATEST_DRIVER_VERSION"
+
+        # Download and install the compatible ChromeDriver version
+        wget https://chromedriver.storage.googleapis.com/${LATEST_DRIVER_VERSION}/chromedriver_linux64.zip
         unzip chromedriver_linux64.zip
         sudo mv chromedriver /usr/local/bin/
         rm chromedriver_linux64.zip
@@ -50,7 +60,4 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add *.csv
-        git commit -m "Updated CSV files from scraper"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        git commit -m "Updated CSV files from
