@@ -1,0 +1,53 @@
+name: Run Web Scraper
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight
+  workflow_dispatch:  # Allows manual triggering from GitHub UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install Chrome
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+
+    - name: Install ChromeDriver
+      run: |
+        CHROME_VERSION=$(google-chrome --version | grep -oP '\d+.\d+.\d+')
+        wget https://chromedriver.storage.googleapis.com/${CHROME_VERSION}/chromedriver_linux64.zip
+        unzip chromedriver_linux64.zip
+        sudo mv chromedriver /usr/local/bin/
+        rm chromedriver_linux64.zip
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install selenium pandas
+
+    - name: Run web scraping script in headless mode
+      run: |
+        sed -i 's/webdriver.Chrome()/webdriver.Chrome(options=options)/' reference_scrape_local.py
+        sed -i '/driver = webdriver.Chrome()/a options = webdriver.ChromeOptions() \noptions.add_argument("--headless") \noptions.add_argument("--no-sandbox") \noptions.add_argument("--disable-dev-shm-usage")' reference_scrape_local.py
+        python reference_scrape_local.py
+
+    - name: Commit CSV files
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add *.csv
+        git commit -m "Updated CSV files from scraper"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
