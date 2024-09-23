@@ -19,15 +19,17 @@ jobs:
         run: |
           pip install selenium pandas
 
-      - name: Install Latest ChromeDriver
+      - name: Install ChromeDriver for Installed Chrome Version
         run: |
           sudo apt-get update
           sudo apt-get install -y chromium-browser
-          mkdir -p $HOME/chromedriver
-          wget -N https://chromedriver.storage.googleapis.com/$(curl -s https://chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_linux64.zip
+          CHROME_VERSION=$(chromium-browser --version | grep -oP '\d+\.\d+\.\d+')
+          CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
+          wget -N https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip
           unzip chromedriver_linux64.zip -d $HOME/chromedriver/
           sudo chmod +x $HOME/chromedriver/chromedriver
           echo "$HOME/chromedriver" >> $GITHUB_PATH
+
 
 
       - name: Run Selenium Script
