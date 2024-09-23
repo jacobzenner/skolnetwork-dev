@@ -2,7 +2,7 @@ name: Scrape
 
 on:
   workflow_dispatch:
-  [push]:
+  push:
   schedule:
     - cron: '0 0 * * *' # Runs daily at midnight, adjust as needed
 
@@ -29,7 +29,7 @@ jobs:
 
       # Run the scraping script
       - name: Run scraping script
-        run: python reference_scrape_local.py
+        run: python scripts/reference_scrape.py
 
       # Commit and push changes
       - name: Commit and Push Changes
