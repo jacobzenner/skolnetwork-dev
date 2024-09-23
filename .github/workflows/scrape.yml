@@ -13,20 +13,28 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Install a Stable Version of Chrome
+    - name: Uninstall current Chrome version
       run: |
-        sudo apt-get update
-        sudo apt-get install -y google-chrome-stable
-        google-chrome --version
+        sudo apt-get remove -y google-chrome-stable
+        sudo rm -f /usr/bin/google-chrome
+        sudo rm -f /usr/bin/google-chrome-stable
+        google-chrome --version || echo "Chrome not found"  # This should show Chrome is uninstalled
 
-    - name: Install ChromeDriver for Stable Chrome Version
+    - name: Install a specific stable version of Chrome
       run: |
-        # Manually specify a stable version of ChromeDriver that is known to be compatible
+        wget https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_114.0.5735.90-1_amd64.deb
+        sudo dpkg -i google-chrome-stable_114.0.5735.90-1_amd64.deb
+        sudo apt-get install -f -y  # Install any missing dependencies
+        google-chrome --version  # Verify the installed version
+
+    - name: Install ChromeDriver for specified Chrome version
+      run: |
+        # Use the matching ChromeDriver version for Chrome 114
         wget https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
         unzip chromedriver_linux64.zip
         sudo mv chromedriver /usr/local/bin/
         rm chromedriver_linux64.zip
-        chromedriver --version
+        chromedriver --version  # Verify the installed ChromeDriver version
 
     - name: Install dependencies
       run: |
