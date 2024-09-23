@@ -1,61 +1,44 @@
-name: Run Web Scraper
+name: Scrape
 
 on:
+  workflow_dispatch:
+  [push]:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight
-  workflow_dispatch:  # Allows manual triggering from GitHub UI
+    - cron: '0 0 * * *' # Runs daily at midnight, adjust as needed
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      # Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-    - name: Uninstall current Chrome version
-      run: |
-        sudo apt-get remove -y google-chrome-stable
-        sudo rm -f /usr/bin/google-chrome
-        sudo rm -f /usr/bin/google-chrome-stable
-        google-chrome --version || echo "Chrome not found"  # This should show Chrome is uninstalled
+      # Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8' # Specify your Python version
 
-    - name: Install a specific stable version of Chrome
-      run: |
-        wget https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_114.0.5735.90-1_amd64.deb
-        sudo dpkg -i google-chrome-stable_114.0.5735.90-1_amd64.deb
-        sudo apt-get install -f -y  # Install any missing dependencies
-        google-chrome --version  # Verify the installed version
+      # Install dependencies
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt # Ensure requirements.txt is up-to-date
 
-    - name: Install ChromeDriver for specified Chrome version
-      run: |
-        # Use the matching ChromeDriver version for Chrome 114
-        wget https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
-        unzip chromedriver_linux64.zip
-        sudo mv chromedriver /usr/local/bin/
-        rm chromedriver_linux64.zip
-        chromedriver --version  # Verify the installed ChromeDriver version
+      # Run the scraping script
+      - name: Run scraping script
+        run: python reference_scrape_local.py
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install selenium pandas
-
-    - name: Modify script for headless mode
-      run: |
-        sed -i 's/webdriver.Chrome()/webdriver.Chrome(options=options)/' scripts/reference_scrape.py
-        sed -i '/driver = webdriver.Chrome()/a options = webdriver.ChromeOptions() \noptions.add_argument("--headless") \noptions.add_argument("--no-sandbox") \noptions.add_argument("--disable-dev-shm-usage")' scripts/reference_scrape.py
-
-    - name: Run web scraping script in headless mode
-      run: |
-        python scripts/reference_scrape.py
-
-    - name: Commit CSV files
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add *.csv
-        git commit -m "Updated CSV files from scraper"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Commit and push changes
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m "Update scraped data"
+          git push
+        env:
+          # This is to allow GitHub actions to push changes to the repository
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
