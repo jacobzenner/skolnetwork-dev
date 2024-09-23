@@ -19,12 +19,6 @@ jobs:
         run: |
           pip install selenium pandas
 
-      - name: Set DNS to Google
-        run: sudo sed -i 's/^#DNS=.*/DNS=8.8.8.8/' /etc/systemd/resolved.conf && sudo systemctl restart systemd-resolved
-
-      - name: Check Network Connectivity
-        run: ping -c 3 google.com
-
       - name: Install Latest ChromeDriver with Retry
         run: |
           sudo apt-get update
