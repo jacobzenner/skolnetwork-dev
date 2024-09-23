@@ -36,11 +36,14 @@ jobs:
         python -m pip install --upgrade pip
         pip install selenium pandas
 
+    - name: Modify script for headless mode
+      run: |
+        sed -i 's/webdriver.Chrome()/webdriver.Chrome(options=options)/' scripts/reference_script.py
+        sed -i '/driver = webdriver.Chrome()/a options = webdriver.ChromeOptions() \noptions.add_argument("--headless") \noptions.add_argument("--no-sandbox") \noptions.add_argument("--disable-dev-shm-usage")' scripts/reference_script.py
+
     - name: Run web scraping script in headless mode
       run: |
-        sed -i 's/webdriver.Chrome()/webdriver.Chrome(options=options)/' scripts/reference_scrape_local.py
-        sed -i '/driver = webdriver.Chrome()/a options = webdriver.ChromeOptions() \noptions.add_argument("--headless") \noptions.add_argument("--no-sandbox") \noptions.add_argument("--disable-dev-shm-usage")' reference_scrape_local.py
-        python reference_scrape_local.py
+        python scripts/reference_script.py
 
     - name: Commit CSV files
       run: |
