@@ -5,6 +5,9 @@ on:
   push:
   schedule:
     - cron: '0 0 * * *' # Runs daily at midnight, adjust as needed
+    
+permissions:
+  contents: write  # This grants write access to the GITHUB_TOKEN
 
 jobs:
   scrape:
