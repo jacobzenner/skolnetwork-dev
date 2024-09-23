@@ -19,10 +19,17 @@ jobs:
         run: |
           pip install selenium pandas
 
-      - name: Install ChromeDriver with Retry
+      - name: Set DNS to Google
+        run: sudo sed -i 's/^#DNS=.*/DNS=8.8.8.8/' /etc/systemd/resolved.conf && sudo systemctl restart systemd-resolved
+
+      - name: Check Network Connectivity
+        run: ping -c 3 google.com
+
+      - name: Install Latest ChromeDriver with Retry
         run: |
           sudo apt-get update
           sudo apt-get install -y chromium-browser
+          sleep 30  # Wait for network to stabilize
           CHROME_VERSION=$(chromium-browser --version | grep -oP '\d+\.\d+\.\d+')
           CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
           for i in {1..5}; do
@@ -31,9 +38,6 @@ jobs:
           unzip chromedriver_linux64.zip -d $HOME/chromedriver/
           sudo chmod +x $HOME/chromedriver/chromedriver
           echo "$HOME/chromedriver" >> $GITHUB_PATH
-
-
-
 
       - name: Run Selenium Script
         env:
