@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skol Network</title>
+    <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body class="bg-white text-black font-sans">
+    <!-- Top Banner -->
+    <header class="bg-purple-900 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Dropdown for Vikings Content -->
+            <div class="relative inline-block text-left">
+                <button class="bg-purple-700 text-white px-4 py-2 rounded-md focus:outline-none">
+                    Sources for Vikings Content
+                </button>
+                <div id="links-dropdown" class="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg z-10 hidden">
+                    <ul id="links-dropdown-list" class="py-1 text-gray-700">
+                        <!-- Links will be dynamically added here -->
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Right-Side Navigation -->
+            <nav class="space-x-6">
+                <a href="https://www.skolnetwork.com/articles" target="_blank" class="text-yellow-300 hover:text-yellow-400">Articles</a>
+                <a href="https://www.vikings.com/news/" target="_blank" class="text-yellow-300 hover:text-yellow-400">News</a>
+                <a href="https://twitter.com/Vikings" target="_blank" class="text-yellow-300 hover:text-yellow-400">X Updates</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Schedule Section -->
+        <section class="md:col-span-3">
+            <h2 class="text-3xl font-bold mb-6 text-center">2024 Schedule</h2>
+            <div id="schedule-container" class="bg-purple-900 p-6 rounded-lg shadow-lg max-h-96 overflow-y-auto">
+                <!-- Header Row -->
+                <div class="flex justify-between border-b border-gray-700 py-4 font-bold text-yellow-300">
+                    <div class="w-1/6 text-center">Week</div>
+                    <div class="w-1/4 text-center">Date</div>
+                    <div class="w-1/4 text-center">Time (CST)</div>
+                    <div class="w-1/2 text-center">Matchup</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Twitter Feed -->
+        <section class="md:col-span-3">
+            <div class="bg-purple-600 p-4 rounded-lg mt-4 shadow-lg max-h-80 overflow-y-auto">
+                <a class="twitter-timeline" href="https://twitter.com/Vikings?ref_src=twsrc%5Etfw">Tweets by Vikings</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </section>
+    </main>
+
+    <!-- Blog Section -->
+    <section class="container mx-auto py-12 text-center">
+        <div class="bg-purple-600 p-8 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold mb-4">2024 Season Preview</h2>
+            <p>
+                Welcome to the 2024 Season!<br><br>-Skol.
+            </p>
+            <p class="mt-4">Record: <span class="text-green-500">2</span> - <span class="text-red-500">0</span></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-purple-800 py-4 mt-12">
+        <div class="container mx-auto text-center">
+            <p>2024-25 SEASON</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Dropdown and Links Section -->
+    <script>
+        // Data for Links Section
+        const sources = [
+            { name: 'The Athletic', url: 'https://theathletic.com/author/alec-lewis/', img: 'Images/TheAthletic.png' },
+            { name: 'ESPN', url: 'https://www.espn.com/blog/minnesota-vikings', img: 'Images/ESPN.png' },
+            { name: 'Sports Illustrated', url: 'https://www.si.com/nfl/vikings/', img: 'Images/Sports-Illustrated-Logo.png' },
+            { name: 'Star Tribune', url: 'https://www.startribune.com/sports/minnesota-vikings/', img: 'Images/star-tribune-icon-filled-256.png' },
+            { name: 'Pioneer Press', url: 'https://www.twincities.com/sports/nfl/minnesota-vikings/', img: 'Images/pioneerpress.png' },
+            { name: 'KFAN Radio', url: 'https://www.iheart.com/live/kfan-1209/', img: 'Images/KFAN.png' },
+            { name: 'LockedOn Vikings', url: 'https://www.youtube.com/@LockedOnVikings', img: 'Images/Lockedon.png' }
+        ];
+
+        // Data for Schedule Section
+        const schedule = [
+            { week: 1, date: '9/08/2024', time: '12:00 PM', matchup: 'MN @ NYG', result: 'W (28-6)', resultClass: 'text-green-500' },
+            { week: 2, date: '9/15/2024', time: '3:25 PM', matchup: 'SF vs MN', result: 'W (23-17)', resultClass: 'text-green-500' },
+            { week: 3, date: '9/22/2024', time: '7:20 PM', matchup: 'HOU vs MN', result: 'W (34-7)', resultClass: 'text-green-500' },
+            { week: 4, date: '9/29/2024', time: '7:20 PM', matchup: 'MN @ GB', result: '', resultClass: '' },
+            { week: 5, date: '10/06/2024', time: '8:30 AM', matchup: 'NYJ vs MN', result: '', resultClass: '' },
+            { week: 6, date: 'BYE', time: '', matchup: '', result: '', resultClass: '' },
+            { week: 7, date: '10/20/2024', time: '12:00 PM', matchup: 'DET vs MN', result: '', resultClass: '' },
+            { week: 8, date: '10/24/2024', time: '7:15 PM', matchup: 'MN @ LAR', result: '', resultClass: '' },
+            { week: 9, date: '11/03/2024', time: '12:00 PM', matchup: 'IND vs MN', result: '', resultClass: '' },
+            { week: 10, date: '11/10/2024', time: '12:00 PM', matchup: 'MN @ JAX', result: '', resultClass: '' },
+            { week: 11, date: '11/17/2024', time: '12:00 PM', matchup: 'MN @ TEN', result: '', resultClass: '' },
+            { week: 12, date: '11/24/2024', time: '12:00 PM', matchup: 'MN @ CHI', result: '', resultClass: '' },
+            { week: 13, date: '12/01/2024', time: '12:00 PM', matchup: 'ARI vs MN', result: '', resultClass: '' },
+            { week: 14, date: '12/08/2024', time: '12:00 PM', matchup: 'ATL vs MN', result: '', resultClass: '' },
+            { week: 15, date: '12/16/2024', time: '7:00 PM', matchup: 'CHI vs MN', result: '', resultClass: '' },
+            { week: 16, date: '12/22/2024', time: '3:05 PM', matchup: 'MN @ SEA', result: '', resultClass: '' },
+            { week: 17, date: '12/29/2024', time: '12:00 PM', matchup: 'GB vs MN', result: '', resultClass: '' },
+            { week: 18, date: 'TBD', time: 'TBD', matchup: 'MN @ DET', result: '', resultClass: '' }
+        ];
+
+        // Render Links in Dropdown
+        const linksDropdownList = document.getElementById('links-dropdown-list');
+        sources.forEach(source => {
+            const linkItem = document.createElement('li');
+            linkItem.className = 'hover:bg-gray-100 px-4 py-2 cursor-pointer';
+            linkItem.innerHTML = `
+                <a href="${source.url}" target="_blank" class="flex items-center space-x-2">
+                    <img src="${source.img}" alt="${source.name}" class="w-6 h-6">
+                    <span>${source.name}</span>
+                </a>
+            `;
+            linksDropdownList.appendChild(linkItem);
+        });
+
+        // Toggle Dropdown Visibility
+        const linksDropdown = document.getElementById('links-dropdown');
+        document.querySelector('button').addEventListener('click', () => {
+            linksDropdown.classList.toggle('hidden');
+        });
+
+        // Close Dropdown When Clicking Outside
+        document.addEventListener('click', (event) => {
+            if (!event.target.closest('.relative')) {
+                linksDropdown.classList.add('hidden');
+            }
+        });
+
+        // Schedule Section Rendering
+        const scheduleContainer = document.getElementById('schedule-container');
+        schedule.forEach((game, index) => {
+            const matchup = document.createElement('div');
+            matchup.className = 'flex justify-between border-b border-gray-700 py-4';
+            if (game.week === 'BYE') {
+                matchup.innerHTML = `<div class="w-full text-center">BYE WEEK</div>`;
+            } else {
+                matchup.innerHTML = `
+                    <div class="w-1/6 text-white text-center">${game.week}</div>
+                    <div class="w-1/4 text-white text-center">${game.date}</div>
+                    <div class="w-1/4 text-white text-center">${game.time}</div>
+                    <div class="w-1/2 text-white text-center">${game.matchup} <span class="${game.resultClass}">${game.result}</span></div>
+                `;
+            }
+            scheduleContainer.appendChild(matchup);
+        });
+    </script>
+</body>
+</html>
