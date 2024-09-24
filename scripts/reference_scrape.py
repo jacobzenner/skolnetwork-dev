@@ -19,7 +19,6 @@ driver.get("https://www.pro-football-reference.com/teams/min/2024.htm")
 # Wait for tables to load
 driver.implicitly_wait(10)
 
-# Specify the table IDs or CSS selectors for the tables you need
 table_ids = ["min_injury_report", "div_passing", "rushing_and_receiving", "defense"]
 
 for index, table_id in enumerate(table_ids):
@@ -28,9 +27,10 @@ for index, table_id in enumerate(table_ids):
         table = driver.find_element(By.ID, table_id)
         html_content = table.get_attribute("outerHTML")
         df = pd.read_html(html_content)[0]
-        # Save the DataFrame to a CSV file
-        df.to_csv(f"{table_id}.csv", index=False)
-        print(f"Saved {table_id}.csv")
+        
+        # Save the DataFrame to a JSON file
+        df.to_json(f"scraped_data/{table_id}.json", orient='records', indent=4)
+        print(f"Saved {table_id}.json")
     except Exception as e:
         print(f"Failed to find table {table_id}: {e}")
 
