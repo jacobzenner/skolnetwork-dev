@@ -34,12 +34,6 @@ jobs:
       - name: Run scraping script
         run: python scripts/reference_scrape.py
 
-      # Move scraped data to scripts/scraped_data
-      - name: Move scraped data
-        run: |
-          mkdir -p scripts/scraped_data
-          mv *.json scripts/scraped_data/ # Adjust this if the files have a different pattern
-
       # Commit and push changes
       - name: Commit and Push Changes
         run: |
