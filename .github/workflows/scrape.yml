@@ -5,7 +5,7 @@ on:
   # push:
   # schedule:
     # - cron: '0 0 * * *' # Runs daily at midnight, adjust as needed
-    
+
 permissions:
   contents: write  # This grants write access to the GITHUB_TOKEN
 
@@ -38,16 +38,15 @@ jobs:
       - name: Move scraped data
         run: |
           mkdir -p scripts/scraped_data
-          mv scripts/scraped_data/ # Adjust the path_to_scraped_files
+          mv *.json scripts/scraped_data/ # Adjust this if the files have a different pattern
 
       # Commit and push changes
       - name: Commit and Push Changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add scripts/scraped_data
+          git add scripts/scraped_data/
           git commit -m "Update scraped data"
           git push
         env:
-          # This is to allow GitHub actions to push changes to the repository
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
