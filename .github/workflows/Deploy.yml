@@ -1,7 +1,9 @@
-name: Deploy to S3
+name: Deploy Static Website to S3
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main # Change to the branch you want to use for deployment
 
 jobs:
   deploy:
@@ -11,7 +13,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v3
 
-      - name: Sync files to S3
+      - name: Upload files to S3
         uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --delete
@@ -20,11 +22,4 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
-          SOURCE_DIR: "build" # Directory to upload (e.g., 'build' for React or 'dist' for Vue)
-
-      - name: Invalidate CloudFront cache (if using CloudFront)
-        run: aws cloudfront create-invalidation --distribution-id YOUR_DISTRIBUTION_ID --paths "/*"
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: ${{ secrets.AWS_REGION }}
+          SOURCE_DIR: "./" # This should be the root directory of your repository or adjust as needed
