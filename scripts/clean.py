@@ -2,7 +2,7 @@ import json
 import os
 
 # Define the directory containing the JSON files
-directory = 'scraped_data'  # Change this path if necessary
+directory = 'scripts/scraped_data'  # Change this path if necessary
 
 # List of JSON files to process and the columns to remove
 json_files = {
