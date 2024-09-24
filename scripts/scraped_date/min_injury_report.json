@@ -1,0 +1,62 @@
+[
+    {
+        "Player": "Jordan Addison",
+        "Pos": "WR",
+        "Practice Status": "DNP",
+        "Details": "Ankle"
+    },
+    {
+        "Player": "Ivan Pace",
+        "Pos": "LB",
+        "Practice Status": "DNP",
+        "Details": "Quad"
+    },
+    {
+        "Player": "Dallas Turner",
+        "Pos": "LB",
+        "Practice Status": "DNP",
+        "Details": "Knee"
+    },
+    {
+        "Player": "Garrett Bradbury",
+        "Pos": "C",
+        "Practice Status": "Full",
+        "Details": "Knee"
+    },
+    {
+        "Player": "Ed Ingram",
+        "Pos": "G",
+        "Practice Status": "Full",
+        "Details": "Triceps"
+    },
+    {
+        "Player": "Justin Jefferson",
+        "Pos": "WR",
+        "Practice Status": "Full",
+        "Details": "Quad"
+    },
+    {
+        "Player": "Aaron Jones",
+        "Pos": "RB",
+        "Practice Status": "Full",
+        "Details": "Hip"
+    },
+    {
+        "Player": "Jalen Nailor",
+        "Pos": "WR",
+        "Practice Status": "Full",
+        "Details": "Ankle"
+    },
+    {
+        "Player": "Brian O'Neill",
+        "Pos": "OT",
+        "Practice Status": "Full",
+        "Details": "Elbow"
+    },
+    {
+        "Player": "Andrew Van Ginkel",
+        "Pos": "OLB",
+        "Practice Status": "Full",
+        "Details": "Foot"
+    }
+]
