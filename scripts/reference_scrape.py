@@ -29,7 +29,7 @@ for index, table_id in enumerate(table_ids):
         df = pd.read_html(html_content)[0]
         
         # Save the DataFrame to a JSON file
-        df.to_json(f"scraped_data/{table_id}.json", orient='records', indent=4)
+        df.to_json(f"scripts/scraped_data/{table_id}.json", orient='records', indent=4)
         print(f"Saved {table_id}.json")
     except Exception as e:
         print(f"Failed to find table {table_id}: {e}")
