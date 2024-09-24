@@ -9,13 +9,13 @@
 </head>
 <body class="bg-white text-black font-sans">
     <!-- Top Banner -->
-    <header class="bg-purple-900 py-4">
+    <header class="bg-gray-200 py-4">
         <div class="container mx-auto flex justify-between items-center">
             <!-- Dropdown for Vikings Content -->
             <div class="relative inline-block text-left">
-                <button class="bg-purple-700 text-white px-4 py-2 rounded-md focus:outline-none">
+                <button class="bg-purple-700 text-white px-4 py-2 rounded-md focus:outline-none transition duration-300 ease-in-out transform hover:scale-105">
                     Sources for Vikings Content
-                </button>
+                </button>                
                 <div id="links-dropdown" class="absolute left-0 mt-2 w-48 bg-white border border-gray-300 rounded-md shadow-lg z-10 hidden">
                     <ul id="links-dropdown-list" class="py-1 text-gray-700">
                         <!-- Links will be dynamically added here -->
@@ -23,21 +23,26 @@
                 </div>
             </div>
             
+            <!-- SKOL NETWORK -->
+            <div class="flex-grow text-center">
+                <h1 class="text-4xl font-bold text-purple-900">SKOL NETWORK</h1>
+            </div>
+
             <!-- Right-Side Navigation -->
-            <nav class="space-x-6">
-                <a href="https://www.skolnetwork.com/articles" target="_blank" class="text-yellow-300 hover:text-yellow-400">Articles</a>
-                <a href="https://www.vikings.com/news/" target="_blank" class="text-yellow-300 hover:text-yellow-400">News</a>
-                <a href="https://twitter.com/Vikings" target="_blank" class="text-yellow-300 hover:text-yellow-400">X Updates</a>
+            <nav class="flex space-x-6">
+                <a href="https://www.skolnetwork.com/articles" target="_blank" class="text-purple-900 hover:text-yellow-400">Articles</a>
+                <a href="https://www.vikings.com/news/" target="_blank" class="text-purple-900 hover:text-yellow-400">News</a>
+                <a href="https://twitter.com/Vikings" target="_blank" class="text-purple-900 hover:text-yellow-400">X Updates</a>
             </nav>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <main class="container mx-auto py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <!-- Main Content in a Single Horizontal Line -->
+    <main class="container mx-auto py-12 flex space-x-8 items-stretch max-h-screen overflow-y-hidden">
         <!-- Schedule Section -->
-        <section class="md:col-span-3">
-            <h2 class="text-3xl font-bold mb-6 text-center">2024 Schedule</h2>
-            <div id="schedule-container" class="bg-purple-900 p-6 rounded-lg shadow-lg max-h-96 overflow-y-auto">
+        <section class="w-1/2 bg-purple-900 p-6 rounded-lg shadow-lg flex flex-col overflow-y-auto">
+            <h2 class="text-3xl font-bold mb-6 text-center text-yellow-300">2024 Schedule</h2>
+            <div id="schedule-container" class="flex-grow overflow-y-auto">
                 <!-- Header Row -->
                 <div class="flex justify-between border-b border-gray-700 py-4 font-bold text-yellow-300">
                     <div class="w-1/6 text-center">Week</div>
@@ -47,36 +52,136 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- Twitter Feed -->
-        <section class="md:col-span-3">
-            <div class="bg-purple-600 p-4 rounded-lg mt-4 shadow-lg max-h-80 overflow-y-auto">
+        <section class="w-1/3 bg-purple-900 p-6 rounded-lg shadow-lg flex flex-col overflow-y-auto">
+            <h2 class="text-3xl font-bold mb-6 text-center text-yellow-300">Twitter Feed</h2>
+            <div class="flex-grow overflow-y-auto">
                 <a class="twitter-timeline" href="https://twitter.com/Vikings?ref_src=twsrc%5Etfw">Tweets by Vikings</a>
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </section>
+
+        <!-- Injury Report Section -->
+        <section class="w-1/3 bg-purple-900 p-8 rounded-lg shadow-lg flex flex-col overflow-y-auto">
+            <h2 class="text-3xl font-bold mb-4 text-center text-yellow-300">Injury Report</h2>
+            <div id="injury-table" class="flex-grow overflow-x-auto bg-white shadow-lg rounded-lg"></div>
+        </section>
     </main>
 
-    <!-- Blog Section -->
-    <section class="container mx-auto py-12 text-center">
-        <div class="bg-purple-600 p-8 rounded-lg shadow-lg">
-            <h2 class="text-2xl font-bold mb-4">2024 Season Preview</h2>
-            <p>
-                Welcome to the 2024 Season!<br><br>-Skol.
-            </p>
-            <p class="mt-4">Record: <span class="text-green-500">2</span> - <span class="text-red-500">0</span></p>
+    
+    <!-- Stats Section -->
+    <main class="w-1/2 container mx-auto py-12">
+        <!-- Selector for Switching Tables -->
+        <div class="flex justify-center mb-8">
+            <select id="table-selector" class="bg-purple-900 text-white px-4 py-2 rounded-md">
+                <option value="passing-table">Passing Stats</option>
+                <option value="rushing-table">Rushing & Receiving Stats</option>
+                <option value="defense-table">Defensive Stats</option>
+            </select>
         </div>
-    </section>
+
+        <!-- Combined Table Area -->
+        <section id="table-container" class="overflow-x-auto bg-white shadow-lg rounded-lg p-4" style="max-height: 500px; overflow-y: auto;">
+            <div id="passing-table" class="table-section hidden"></div>
+            <div id="rushing-table" class="table-section hidden"></div>
+            <div id="defense-table" class="table-section hidden"></div>
+        </section>
+    </main>
 
     <!-- Footer -->
-    <footer class="bg-purple-800 py-4 mt-12">
+    <footer class="bg-purple-900 text-white py-4 mt-12">
         <div class="container mx-auto text-center">
             <p>2024-25 SEASON</p>
         </div>
     </footer>
 
-    <!-- JavaScript for Dropdown and Links Section -->
+    <!-- JavaScript for Dropdown, Links, and Stats -->
     <script>
+        // URLs for JSON Files
+        const defenseUrl = "scripts/scraped_data/defense.json";
+        const passingUrl = "scripts/scraped_data/div_passing.json";
+        const rushingUrl = "scripts/scraped_data/rushing_and_receiving.json";
+        const injuryUrl = "scripts/scraped_data/min_injury_report.json";
+
+        // Function to Create a Table from JSON Data
+        function createTableFromJson(jsonData, tableId) {
+            const tableContainer = document.getElementById(tableId);
+            tableContainer.innerHTML = ''; // Clear previous table content
+
+            const table = document.createElement('table');
+            table.className = 'min-w-full bg-white border-collapse border border-gray-200';
+            
+            // Create table header row
+            const headerRow = document.createElement('tr');
+            headerRow.className = 'bg-gray-200 text-left text-gray-800 font-bold';
+            Object.keys(jsonData[0]).forEach(key => {
+                const th = document.createElement('th');
+                th.className = 'border px-4 py-2';
+                th.textContent = key;
+                headerRow.appendChild(th);
+            });
+            table.appendChild(headerRow);
+
+            // Create table body rows
+            jsonData.forEach(item => {
+                const row = document.createElement('tr');
+                row.className = 'border-b hover:bg-gray-100';
+                Object.values(item).forEach(value => {
+                    const td = document.createElement('td');
+                    td.className = 'border px-4 py-2';
+                    td.textContent = value !== null ? value : '-';
+                    row.appendChild(td);
+                });
+                table.appendChild(row);
+            });
+
+            tableContainer.appendChild(table);
+        }
+
+        // Fetch and Display JSON Data for Each Table
+        fetch(passingUrl)
+            .then(response => response.json())
+            .then(data => createTableFromJson(data, 'passing-table'))
+            .catch(error => console.error('Error fetching passing data:', error));
+
+        fetch(rushingUrl)
+            .then(response => response.json())
+            .then(data => createTableFromJson(data, 'rushing-table'))
+            .catch(error => console.error('Error fetching rushing data:', error));
+
+        fetch(defenseUrl)
+            .then(response => response.json())
+            .then(data => createTableFromJson(data, 'defense-table'))
+            .catch(error => console.error('Error fetching defense data:', error));
+
+        // Function to Show/Hide Tables Based on Selection
+        function showSelectedTable() {
+            const selectedTable = document.getElementById('table-selector').value;
+            document.querySelectorAll('.table-section').forEach(section => {
+                section.classList.add('hidden'); // Hide all tables
+            });
+            document.getElementById(selectedTable).classList.remove('hidden'); // Show selected table
+        }
+
+        // Event Listener for Table Selector
+        document.getElementById('table-selector').addEventListener('change', showSelectedTable);
+
+        // Show Default Table (Passing Stats)
+        document.getElementById('passing-table').classList.remove('hidden');
+
+        // Close Dropdown When Clicking Outside and Improve Toggle Logic
+        document.addEventListener('click', (event) => {
+            const isClickInside = event.target.closest('.relative');
+            if (!isClickInside && !linksDropdown.classList.contains('hidden')) {
+                linksDropdown.classList.add('hidden');
+            }
+        });
+        fetch(injuryUrl)
+            .then(response => response.json())
+            .then(data => createTableFromJson(data, 'injury-table'))
+            .catch(error => console.error('Error fetching injury data:', error));
+        
         // Data for Links Section
         const sources = [
             { name: 'The Athletic', url: 'https://theathletic.com/author/alec-lewis/', img: 'Images/TheAthletic.png' },
@@ -91,9 +196,9 @@
         // Data for Schedule Section
         const schedule = [
             { week: 1, date: '9/08/2024', time: '12:00 PM', matchup: 'MN @ NYG', result: 'W (28-6)', resultClass: 'text-green-500' },
-            { week: 2, date: '9/15/2024', time: '3:25 PM', matchup: 'SF vs MN', result: 'W (23-17)', resultClass: 'text-green-500' },
-            { week: 3, date: '9/22/2024', time: '7:20 PM', matchup: 'HOU vs MN', result: 'W (34-7)', resultClass: 'text-green-500' },
-            { week: 4, date: '9/29/2024', time: '7:20 PM', matchup: 'MN @ GB', result: '', resultClass: '' },
+            { week: 2, date: '9/15/2024', time: '12:00 PM', matchup: 'SF vs MN', result: 'W (23-17)', resultClass: 'text-green-500' },
+            { week: 3, date: '9/22/2024', time: '12:00 PM', matchup: 'HOU vs MN', result: 'W (34-7)', resultClass: 'text-green-500' },
+            { week: 4, date: '9/29/2024', time: '12:00 PM', matchup: 'MN @ GB', result: '', resultClass: '' },
             { week: 5, date: '10/06/2024', time: '8:30 AM', matchup: 'NYJ vs MN', result: '', resultClass: '' },
             { week: 6, date: 'BYE', time: '', matchup: '', result: '', resultClass: '' },
             { week: 7, date: '10/20/2024', time: '12:00 PM', matchup: 'DET vs MN', result: '', resultClass: '' },
@@ -130,12 +235,14 @@
             linksDropdown.classList.toggle('hidden');
         });
 
-        // Close Dropdown When Clicking Outside
+        // Close Dropdown When Clicking Outside and Improve Toggle Logic
         document.addEventListener('click', (event) => {
-            if (!event.target.closest('.relative')) {
+            const isClickInside = event.target.closest('.relative');
+            if (!isClickInside && !linksDropdown.classList.contains('hidden')) {
                 linksDropdown.classList.add('hidden');
             }
         });
+
 
         // Schedule Section Rendering
         const scheduleContainer = document.getElementById('schedule-container');
