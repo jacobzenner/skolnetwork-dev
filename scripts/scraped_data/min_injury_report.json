@@ -1,0 +1,114 @@
+[
+    {
+        "Player":"Mekhi Blackmon",
+        "Pos":"CB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"Jeremy Flax",
+        "Pos":"OL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"Jordan Kunaszyk",
+        "Pos":"LB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"J.J. McCarthy",
+        "Pos":"QB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"Nick Muse",
+        "Pos":"TE",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"NaJee Thompson",
+        "Pos":"CB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"Jordan Addison",
+        "Pos":"WR",
+        "Practice Status":"DNP",
+        "Status":"Out",
+        "Details":"Ankle"
+    },
+    {
+        "Player":"Ivan Pace",
+        "Pos":"LB",
+        "Practice Status":"DNP",
+        "Status":"Out",
+        "Details":"Quad"
+    },
+    {
+        "Player":"Dallas Turner",
+        "Pos":"LB",
+        "Practice Status":"DNP",
+        "Status":"Out",
+        "Details":"Knee"
+    },
+    {
+        "Player":"Garrett Bradbury",
+        "Pos":"C",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Knee"
+    },
+    {
+        "Player":"Ed Ingram",
+        "Pos":"G",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Triceps"
+    },
+    {
+        "Player":"Justin Jefferson",
+        "Pos":"WR",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Quad"
+    },
+    {
+        "Player":"Aaron Jones",
+        "Pos":"RB",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Hip"
+    },
+    {
+        "Player":"Jalen Nailor",
+        "Pos":"WR",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Ankle"
+    },
+    {
+        "Player":"Brian O'Neill",
+        "Pos":"OT",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Elbow"
+    },
+    {
+        "Player":"Andrew Van Ginkel",
+        "Pos":"OLB",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Foot"
+    }
+]
