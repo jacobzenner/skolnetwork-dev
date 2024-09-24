@@ -3,6 +3,9 @@ name: Clean JSON
 on:
   workflow_dispatch:
   #push:
+  
+permissions:
+  contents: write  # This grants write access to the GITHUB_TOKEN
 
 jobs:
   run-script:
@@ -24,3 +27,14 @@ jobs:
 
     - name: Run Python script
       run: python scripts/clean.py
+
+    # Commit and push changes
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add scripts/scraped_data/*.json 
+        git commit -m "Update JSON files after cleaning"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
