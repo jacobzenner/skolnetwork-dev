@@ -2,7 +2,8 @@ name: Clean JSON
 
 on:
   workflow_dispatch:
-  #push:
+  schedule:
+    - cron: '15 0 * * 4,5,6,1,2'
   
 permissions:
   contents: write  # This grants write access to the GITHUB_TOKEN
