@@ -116,7 +116,7 @@ def create_divisions_json(afc_data, nfc_data, output_file):
     print(f"Formatted data saved to {output_file}")
 
 # Define file paths and rules for cleaning
-directory = 'scripts/scraped_data'
+directory = 'scraped_data'
 json_files = {
     'defense.json': ["GS", "Yds", "TD", "Lng", "Fmb", "Yds", "TD", "Sfty", "Age"],
     'div_passing.json': ["1D", "Succ%", "Lng", "Cmp", "Att", "Age", "TD%", "Int%", "Y/A", "AY/A", "Y/C", "Y/G", "Rate", "QBR", "Sk", "GS", "Yds.1", "Sk%", "NY/A", "ANY/A", "4QC", "GWD", "Awards"],
@@ -146,8 +146,8 @@ for json_file, columns_to_remove in json_files.items():
         print(f"File {json_file} not found in {directory}")
 
 # Load the JSON data from AFC and NFC files
-afc_file = "scripts/scraped_data/AFC.json"
-nfc_file = "scripts/scraped_data/NFC.json"
+afc_file = "scraped_data/AFC.json"
+nfc_file = "scraped_data/NFC.json"
 if os.path.exists(afc_file) and os.path.exists(nfc_file):
     afc_data = load_json(afc_file)
     nfc_data = load_json(nfc_file)
