@@ -1,10 +1,12 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 import pandas as pd
 import os
 
 # Function to scrape a given URL and table IDs, then save the tables to JSON files
-def scrape_tables(url, table_ids, output_dir="scraped_data"):
+def scrape_tables(url, table_ids, output_dir="scripts/scraped_data"):
     # Set up headless Chrome WebDriver
     chrome_options = Options()
     chrome_options.add_argument("--headless")

@@ -32,7 +32,7 @@ jobs:
 
       # Run the scraping script
       - name: Run scraping script
-        run: python scripts/reference_scrape.py
+        run: python scripts/scrape.py
 
       # Commit and push changes
       - name: Commit and Push Changes
