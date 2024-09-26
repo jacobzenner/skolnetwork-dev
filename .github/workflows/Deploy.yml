@@ -3,7 +3,7 @@ name: Deploy to S3
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 0 * * 4,5,6,1,2'
+    - cron: '30 6 * * 4,5,6,1,2'
 
 jobs:
   deploy:
