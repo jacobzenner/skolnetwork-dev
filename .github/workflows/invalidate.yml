@@ -1,0 +1,22 @@
+name: Invalidate CloudFront Cache
+
+on:
+  workflow_dispatch: # Allows manual trigger of the action
+  schedule:
+    - cron: '0 12 * * *' # Optional: Runs every day at 12:00 UTC (adjust as needed)
+
+jobs:
+  invalidate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Invalidate CloudFront Cache
+        run: |
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
