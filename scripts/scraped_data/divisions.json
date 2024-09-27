@@ -131,16 +131,16 @@
                 "PD": "-9"
             },
             {
-                "team": "New York Giants",
-                "W": "1",
+                "team": "Dallas Cowboys",
+                "W": "2",
                 "L": "2",
-                "PD": "-19"
+                "PD": "-7"
             },
             {
-                "team": "Dallas Cowboys",
+                "team": "New York Giants",
                 "W": "1",
-                "L": "2",
-                "PD": "-12"
+                "L": "3",
+                "PD": "-24"
             }
         ]
     },
