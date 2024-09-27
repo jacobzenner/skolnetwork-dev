@@ -1,4 +1,4 @@
-name: Invalidate CloudFront Cache
+name: Invalidate CloudFront
 
 on:
   workflow_dispatch: # Allows manual trigger of the action
