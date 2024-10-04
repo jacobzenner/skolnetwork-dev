@@ -1,79 +1,32 @@
 [
     {
-        "Player":"Mekhi Blackmon",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Sam Darnold",
+        "Pos": "QB",
+        "Practice Status": "Full",
+        "Details": "Knee"
     },
     {
-        "Player":"Jeremy Flax",
-        "Pos":"OL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Akayleb Evans",
+        "Pos": "DB",
+        "Practice Status": "Full",
+        "Details": "Illness"
     },
     {
-        "Player":"Jordan Kunaszyk",
-        "Pos":"LB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Josh Oliver",
+        "Pos": "TE",
+        "Practice Status": "Limited",
+        "Details": "Wrist"
     },
     {
-        "Player":"J.J. McCarthy",
-        "Pos":"QB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Ivan Pace",
+        "Pos": "LB",
+        "Practice Status": "Full",
+        "Details": "Ankle"
     },
     {
-        "Player":"Nick Muse",
-        "Pos":"TE",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
-    },
-    {
-        "Player":"NaJee Thompson",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
-    },
-    {
-        "Player":"Sam Darnold",
-        "Pos":"QB",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Knee"
-    },
-    {
-        "Player":"Akayleb Evans",
-        "Pos":"DB",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Illness"
-    },
-    {
-        "Player":"Josh Oliver",
-        "Pos":"TE",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Wrist"
-    },
-    {
-        "Player":"Ivan Pace",
-        "Pos":"LB",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Ankle"
-    },
-    {
-        "Player":"Brandon Powell",
-        "Pos":"WR",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Chest"
+        "Player": "Brandon Powell",
+        "Pos": "WR",
+        "Practice Status": "Limited",
+        "Details": "Chest"
     }
 ]

@@ -179,20 +179,20 @@
             {
                 "team": "Tampa Bay Buccaneers",
                 "W": "3",
-                "L": "1",
-                "PD": "19"
+                "L": "2",
+                "PD": "13"
+            },
+            {
+                "team": "Atlanta Falcons",
+                "W": "3",
+                "L": "2",
+                "PD": "-4"
             },
             {
                 "team": "New Orleans Saints",
                 "W": "2",
                 "L": "2",
                 "PD": "57"
-            },
-            {
-                "team": "Atlanta Falcons",
-                "W": "2",
-                "L": "2",
-                "PD": "-10"
             },
             {
                 "team": "Carolina Panthers",
