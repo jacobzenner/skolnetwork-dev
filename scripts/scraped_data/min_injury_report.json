@@ -1,38 +1,86 @@
 [
     {
-        "Player": "T.J. Hockenson",
-        "Pos": "TE",
-        "Practice Status": "Limited",
-        "Details": "Knee"
+        "Player":"Mekhi Blackmon",
+        "Pos":"CB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Sam Darnold",
-        "Pos": "QB",
-        "Practice Status": "Full",
-        "Details": "Knee"
+        "Player":"Jeremy Flax",
+        "Pos":"OL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Akayleb Evans",
-        "Pos": "DB",
-        "Practice Status": "Full",
-        "Details": "Illness"
+        "Player":"Jordan Kunaszyk",
+        "Pos":"LB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Josh Oliver",
-        "Pos": "TE",
-        "Practice Status": "Full",
-        "Details": "Wrist"
+        "Player":"J.J. McCarthy",
+        "Pos":"QB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Ivan Pace",
-        "Pos": "LB",
-        "Practice Status": "Full",
-        "Details": "Ankle"
+        "Player":"Nick Muse",
+        "Pos":"TE",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Brandon Powell",
-        "Pos": "WR",
-        "Practice Status": "Full",
-        "Details": "Chest"
+        "Player":"NaJee Thompson",
+        "Pos":"CB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"T.J. Hockenson",
+        "Pos":"TE",
+        "Practice Status":"Limited",
+        "Status":"Out",
+        "Details":"Knee"
+    },
+    {
+        "Player":"Sam Darnold",
+        "Pos":"QB",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Knee"
+    },
+    {
+        "Player":"Akayleb Evans",
+        "Pos":"DB",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Illness"
+    },
+    {
+        "Player":"Josh Oliver",
+        "Pos":"TE",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Wrist"
+    },
+    {
+        "Player":"Ivan Pace",
+        "Pos":"LB",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Ankle"
+    },
+    {
+        "Player":"Brandon Powell",
+        "Pos":"WR",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Chest"
     }
 ]
