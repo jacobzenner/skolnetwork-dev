@@ -4,9 +4,9 @@
         "teams": [
             {
                 "team": "Buffalo Bills*",
-                "W": "3",
+                "W": "4",
                 "L": "2",
-                "PD": "36"
+                "PD": "39"
             },
             {
                 "team": "Miami Dolphins",
@@ -17,8 +17,8 @@
             {
                 "team": "New York Jets",
                 "W": "2",
-                "L": "3",
-                "PD": "8"
+                "L": "4",
+                "PD": "5"
             },
             {
                 "team": "New England Patriots",
