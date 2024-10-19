@@ -1,121 +1,68 @@
 [
     {
-        "Player":"Mekhi Blackmon",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Blake Cashman",
+        "Pos": "LB",
+        "Practice Status": "DNP",
+        "Details": "Toe"
     },
     {
-        "Player":"Jeremy Flax",
-        "Pos":"OL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Akayleb Evans",
+        "Pos": "DB",
+        "Practice Status": "DNP",
+        "Details": "Hip"
     },
     {
-        "Player":"Jordan Kunaszyk",
-        "Pos":"LB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "T.J. Hockenson",
+        "Pos": "TE",
+        "Practice Status": "Limited",
+        "Details": "Knee"
     },
     {
-        "Player":"J.J. McCarthy",
-        "Pos":"QB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Aaron Jones",
+        "Pos": "RB",
+        "Practice Status": "Limited",
+        "Details": "Hamstring"
     },
     {
-        "Player":"Nick Muse",
-        "Pos":"TE",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Patrick Jones II",
+        "Pos": "DL",
+        "Practice Status": "Limited",
+        "Details": "Shoulder"
     },
     {
-        "Player":"NaJee Thompson",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Harrison Phillips",
+        "Pos": "DT",
+        "Practice Status": "Limited",
+        "Details": "Shoulder"
     },
     {
-        "Player":"Blake Cashman",
-        "Pos":"LB",
-        "Practice Status":"DNP",
-        "Status":"Out",
-        "Details":"Toe"
+        "Player": "Dalton Risner",
+        "Pos": "LG",
+        "Practice Status": "Limited",
+        "Details": "Back"
     },
     {
-        "Player":"Akayleb Evans",
-        "Pos":"DB",
-        "Practice Status":"DNP",
-        "Status":"Out",
-        "Details":"Hip"
+        "Player": "Stephon Gilmore",
+        "Pos": "CB",
+        "Practice Status": "DNP",
+        "Details": "NIR-Rest"
     },
     {
-        "Player":"T.J. Hockenson",
-        "Pos":"TE",
-        "Practice Status":"Limited",
-        "Status":"Questionable",
-        "Details":"Knee"
+        "Player": "Theo Jackson",
+        "Pos": "DB",
+        "Practice Status": "Full",
+        "Details": "Hand"
     },
     {
-        "Player":"Aaron Jones",
-        "Pos":"RB",
-        "Practice Status":"Limited",
-        "Status":"Questionable",
-        "Details":"Hamstring"
+        "Player": "Josh Oliver",
+        "Pos": "TE",
+        "Practice Status": "Full",
+        "Details": "Wrist"
     },
     {
-        "Player":"Patrick Jones II",
-        "Pos":"DL",
-        "Practice Status":"Limited",
-        "Status":"Questionable",
-        "Details":"Shoulder"
-    },
-    {
-        "Player":"Harrison Phillips",
-        "Pos":"DT",
-        "Practice Status":"Limited",
-        "Status":"Questionable",
-        "Details":"Shoulder"
-    },
-    {
-        "Player":"Dalton Risner",
-        "Pos":"LG",
-        "Practice Status":"Limited",
-        "Status":"Questionable",
-        "Details":"Back"
-    },
-    {
-        "Player":"Stephon Gilmore",
-        "Pos":"CB",
-        "Practice Status":"DNP",
-        "Status":null,
-        "Details":"NIR-Rest"
-    },
-    {
-        "Player":"Theo Jackson",
-        "Pos":"DB",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Hand"
-    },
-    {
-        "Player":"Josh Oliver",
-        "Pos":"TE",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Wrist"
-    },
-    {
-        "Player":"Harrison Smith",
-        "Pos":"FS",
-        "Practice Status":"DNP",
-        "Status":null,
-        "Details":"NIR-Rest"
+        "Player": "Harrison Smith",
+        "Pos": "FS",
+        "Practice Status": "DNP",
+        "Details": "NIR-Rest"
     }
 ]
