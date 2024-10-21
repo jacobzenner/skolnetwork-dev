@@ -4,27 +4,27 @@
         "teams": [
             {
                 "team": "Buffalo Bills*",
-                "W": "4",
+                "W": "5",
                 "L": "2",
-                "PD": "39"
+                "PD": "63"
             },
             {
                 "team": "Miami Dolphins",
                 "W": "2",
-                "L": "3",
-                "PD": "-53"
+                "L": "4",
+                "PD": "-59"
             },
             {
                 "team": "New York Jets",
                 "W": "2",
-                "L": "4",
-                "PD": "5"
+                "L": "5",
+                "PD": "-17"
             },
             {
                 "team": "New England Patriots",
                 "W": "1",
-                "L": "5",
-                "PD": "-60"
+                "L": "6",
+                "PD": "-76"
             }
         ]
     },
@@ -33,27 +33,27 @@
         "teams": [
             {
                 "team": "Pittsburgh Steelers",
-                "W": "4",
+                "W": "5",
                 "L": "2",
-                "PD": "38"
+                "PD": "60"
             },
             {
-                "team": "Cleveland Browns",
-                "W": "1",
-                "L": "5",
-                "PD": "-46"
-            },
-            {
-                "team": "Baltimore Ravens*",
+                "team": "Baltimore Ravens+",
                 "W": "4",
                 "L": "2",
                 "PD": "28"
             },
             {
                 "team": "Cincinnati Bengals",
-                "W": "2",
+                "W": "3",
                 "L": "4",
-                "PD": "5"
+                "PD": "12"
+            },
+            {
+                "team": "Cleveland Browns",
+                "W": "1",
+                "L": "6",
+                "PD": "-53"
             }
         ]
     },
@@ -63,26 +63,26 @@
             {
                 "team": "Houston Texans*",
                 "W": "5",
-                "L": "1",
-                "PD": "8"
+                "L": "2",
+                "PD": "6"
             },
             {
                 "team": "Indianapolis Colts+",
-                "W": "3",
+                "W": "4",
                 "L": "3",
-                "PD": "0"
+                "PD": "6"
+            },
+            {
+                "team": "Jacksonville Jaguars",
+                "W": "2",
+                "L": "5",
+                "PD": "-49"
             },
             {
                 "team": "Tennessee Titans",
                 "W": "1",
-                "L": "4",
-                "PD": "-14"
-            },
-            {
-                "team": "Jacksonville Jaguars",
-                "W": "1",
                 "L": "5",
-                "PD": "-65"
+                "PD": "-38"
             }
         ]
     },
@@ -91,9 +91,9 @@
         "teams": [
             {
                 "team": "Kansas City Chiefs*",
-                "W": "5",
+                "W": "6",
                 "L": "0",
-                "PD": "33"
+                "PD": "43"
             },
             {
                 "team": "Los Angeles Chargers+",
@@ -110,8 +110,8 @@
             {
                 "team": "Las Vegas Raiders",
                 "W": "2",
-                "L": "4",
-                "PD": "-54"
+                "L": "5",
+                "PD": "-59"
             }
         ]
     },
@@ -119,19 +119,19 @@
         "division": "NFC East",
         "teams": [
             {
-                "team": "Philadelphia Eagles",
-                "W": "3",
+                "team": "Washington Commanders*",
+                "W": "5",
                 "L": "2",
-                "PD": "-6"
+                "PD": "66"
             },
             {
-                "team": "Washington Commanders*",
+                "team": "Philadelphia Eagles+",
                 "W": "4",
                 "L": "2",
-                "PD": "33"
+                "PD": "19"
             },
             {
-                "team": "Dallas Cowboys+",
+                "team": "Dallas Cowboys",
                 "W": "3",
                 "L": "3",
                 "PD": "-42"
@@ -139,8 +139,8 @@
             {
                 "team": "New York Giants",
                 "W": "2",
-                "L": "4",
-                "PD": "-25"
+                "L": "5",
+                "PD": "-50"
             }
         ]
     },
@@ -148,28 +148,28 @@
         "division": "NFC North",
         "teams": [
             {
-                "team": "Detroit Lions",
-                "W": "4",
-                "L": "1",
-                "PD": "60"
-            },
-            {
                 "team": "Chicago Bears",
                 "W": "4",
                 "L": "2",
                 "PD": "47"
             },
             {
+                "team": "Detroit Lions*",
+                "W": "5",
+                "L": "1",
+                "PD": "62"
+            },
+            {
                 "team": "Minnesota Vikings*",
                 "W": "5",
-                "L": "0",
-                "PD": "63"
+                "L": "1",
+                "PD": "61"
             },
             {
                 "team": "Green Bay Packers+",
-                "W": "4",
+                "W": "5",
                 "L": "2",
-                "PD": "41"
+                "PD": "43"
             }
         ]
     },
@@ -177,16 +177,16 @@
         "division": "NFC South",
         "teams": [
             {
-                "team": "Atlanta Falcons*",
-                "W": "4",
-                "L": "2",
-                "PD": "14"
-            },
-            {
                 "team": "Tampa Bay Buccaneers*",
                 "W": "4",
                 "L": "2",
                 "PD": "37"
+            },
+            {
+                "team": "Atlanta Falcons",
+                "W": "4",
+                "L": "3",
+                "PD": "-6"
             },
             {
                 "team": "New Orleans Saints",
@@ -197,8 +197,8 @@
             {
                 "team": "Carolina Panthers",
                 "W": "1",
-                "L": "5",
-                "PD": "-100"
+                "L": "6",
+                "PD": "-133"
             }
         ]
     },
@@ -206,16 +206,16 @@
         "division": "NFC West",
         "teams": [
             {
-                "team": "San Francisco 49ers*",
-                "W": "3",
+                "team": "Seattle Seahawks*",
+                "W": "4",
                 "L": "3",
-                "PD": "32"
+                "PD": "16"
             },
             {
-                "team": "Seattle Seahawks",
+                "team": "San Francisco 49ers",
                 "W": "3",
-                "L": "3",
-                "PD": "-4"
+                "L": "4",
+                "PD": "22"
             },
             {
                 "team": "Arizona Cardinals",
@@ -225,9 +225,9 @@
             },
             {
                 "team": "Los Angeles Rams",
-                "W": "1",
+                "W": "2",
                 "L": "4",
-                "PD": "-45"
+                "PD": "-40"
             }
         ]
     }
