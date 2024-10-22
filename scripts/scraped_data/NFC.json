@@ -14,7 +14,7 @@
         "DSRS":"NFC East"
     },
     {
-        "Tm":"Washington Commanders*",
+        "Tm":"Washington Commanders",
         "W":"5",
         "L":"2",
         "W-L%":".714",
@@ -28,7 +28,7 @@
         "DSRS":"-0.2"
     },
     {
-        "Tm":"Philadelphia Eagles+",
+        "Tm":"Philadelphia Eagles",
         "W":"4",
         "L":"2",
         "W-L%":".667",
@@ -84,35 +84,7 @@
         "DSRS":"NFC North"
     },
     {
-        "Tm":"Chicago Bears",
-        "W":"4",
-        "L":"2",
-        "W-L%":".667",
-        "PF":"148",
-        "PA":"101",
-        "PD":"47",
-        "MoV":"7.8",
-        "SoS":"-7.1",
-        "SRS":"0.7",
-        "OSRS":"-2.3",
-        "DSRS":"3.1"
-    },
-    {
-        "Tm":"Detroit Lions*",
-        "W":"5",
-        "L":"1",
-        "W-L%":".833",
-        "PF":"182",
-        "PA":"120",
-        "PD":"62",
-        "MoV":"10.3",
-        "SoS":"3.0",
-        "SRS":"13.3",
-        "OSRS":"7.2",
-        "DSRS":"6.1"
-    },
-    {
-        "Tm":"Minnesota Vikings*",
+        "Tm":"Minnesota Vikings",
         "W":"5",
         "L":"1",
         "W-L%":".833",
@@ -126,7 +98,21 @@
         "DSRS":"5.3"
     },
     {
-        "Tm":"Green Bay Packers+",
+        "Tm":"Detroit Lions",
+        "W":"5",
+        "L":"1",
+        "W-L%":".833",
+        "PF":"182",
+        "PA":"120",
+        "PD":"62",
+        "MoV":"10.3",
+        "SoS":"3.0",
+        "SRS":"13.3",
+        "OSRS":"7.2",
+        "DSRS":"6.1"
+    },
+    {
+        "Tm":"Green Bay Packers",
         "W":"5",
         "L":"2",
         "W-L%":".714",
@@ -138,6 +124,20 @@
         "SRS":"6.9",
         "OSRS":"4.4",
         "DSRS":"2.5"
+    },
+    {
+        "Tm":"Chicago Bears",
+        "W":"4",
+        "L":"2",
+        "W-L%":".667",
+        "PF":"148",
+        "PA":"101",
+        "PD":"47",
+        "MoV":"7.8",
+        "SoS":"-7.1",
+        "SRS":"0.7",
+        "OSRS":"-2.3",
+        "DSRS":"3.1"
     },
     {
         "Tm":"NFC South",
@@ -154,7 +154,7 @@
         "DSRS":"NFC South"
     },
     {
-        "Tm":"Tampa Bay Buccaneers*",
+        "Tm":"Tampa Bay Buccaneers",
         "W":"4",
         "L":"2",
         "W-L%":".667",
@@ -224,7 +224,7 @@
         "DSRS":"NFC West"
     },
     {
-        "Tm":"Seattle Seahawks*",
+        "Tm":"Seattle Seahawks",
         "W":"4",
         "L":"3",
         "W-L%":".571",
