@@ -148,16 +148,16 @@
         "division": "NFC North",
         "teams": [
             {
-                "team": "Minnesota Vikings",
-                "W": "5",
-                "L": "1",
-                "PD": "61"
-            },
-            {
                 "team": "Detroit Lions",
                 "W": "5",
                 "L": "1",
                 "PD": "62"
+            },
+            {
+                "team": "Minnesota Vikings",
+                "W": "5",
+                "L": "2",
+                "PD": "51"
             },
             {
                 "team": "Green Bay Packers",
@@ -218,16 +218,16 @@
                 "PD": "-28"
             },
             {
+                "team": "Los Angeles Rams",
+                "W": "3",
+                "L": "4",
+                "PD": "-30"
+            },
+            {
                 "team": "San Francisco 49ers",
                 "W": "3",
                 "L": "4",
                 "PD": "22"
-            },
-            {
-                "team": "Los Angeles Rams",
-                "W": "2",
-                "L": "4",
-                "PD": "-40"
             }
         ]
     }
