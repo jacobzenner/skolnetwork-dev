@@ -1,114 +1,56 @@
 [
     {
-        "Player":"Mekhi Blackmon",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Blake Cashman",
+        "Pos": "LB",
+        "Practice Status": "DNP",
+        "Details": "Toe"
     },
     {
-        "Player":"Christian Darrisaw",
-        "Pos":"OL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "T.J. Hockenson",
+        "Pos": "TE",
+        "Practice Status": "Limited",
+        "Details": "Knee"
     },
     {
-        "Player":"Jeremy Flax",
-        "Pos":"OL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Dalton Risner",
+        "Pos": "LG",
+        "Practice Status": "Full",
+        "Details": "Back"
     },
     {
-        "Player":"Jordan Kunaszyk",
-        "Pos":"LB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Akayleb Evans",
+        "Pos": "DB",
+        "Practice Status": "Limited",
+        "Details": "Hip"
     },
     {
-        "Player":"J.J. McCarthy",
-        "Pos":"QB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Theo Jackson",
+        "Pos": "DB",
+        "Practice Status": "Full",
+        "Details": "Hand"
     },
     {
-        "Player":"Nick Muse",
-        "Pos":"TE",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Aaron Jones",
+        "Pos": "RB",
+        "Practice Status": "Full",
+        "Details": "Hamstring"
     },
     {
-        "Player":"NaJee Thompson",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Patrick Jones II",
+        "Pos": "DL",
+        "Practice Status": "Full",
+        "Details": "Shoulder"
     },
     {
-        "Player":"Blake Cashman",
-        "Pos":"LB",
-        "Practice Status":"DNP",
-        "Status":"Out",
-        "Details":"Toe"
+        "Player": "Josh Oliver",
+        "Pos": "TE",
+        "Practice Status": "Full",
+        "Details": "Wrist"
     },
     {
-        "Player":"T.J. Hockenson",
-        "Pos":"TE",
-        "Practice Status":"Limited",
-        "Status":"Out",
-        "Details":"Knee"
-    },
-    {
-        "Player":"Dalton Risner",
-        "Pos":"LG",
-        "Practice Status":"Full",
-        "Status":"Out",
-        "Details":"Back"
-    },
-    {
-        "Player":"Akayleb Evans",
-        "Pos":"DB",
-        "Practice Status":"Limited",
-        "Status":"Questionable",
-        "Details":"Hip"
-    },
-    {
-        "Player":"Theo Jackson",
-        "Pos":"DB",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Hand"
-    },
-    {
-        "Player":"Aaron Jones",
-        "Pos":"RB",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Hamstring"
-    },
-    {
-        "Player":"Patrick Jones II",
-        "Pos":"DL",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Shoulder"
-    },
-    {
-        "Player":"Josh Oliver",
-        "Pos":"TE",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Wrist"
-    },
-    {
-        "Player":"Harrison Phillips",
-        "Pos":"DT",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Shoulder"
+        "Player": "Harrison Phillips",
+        "Pos": "DT",
+        "Practice Status": "Full",
+        "Details": "Shoulder"
     }
 ]
