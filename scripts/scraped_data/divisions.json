@@ -33,9 +33,9 @@
         "teams": [
             {
                 "team": "Pittsburgh Steelers",
-                "W": "5",
+                "W": "6",
                 "L": "2",
-                "PD": "60"
+                "PD": "68"
             },
             {
                 "team": "Baltimore Ravens",
@@ -139,8 +139,8 @@
             {
                 "team": "New York Giants",
                 "W": "2",
-                "L": "5",
-                "PD": "-50"
+                "L": "6",
+                "PD": "-58"
             }
         ]
     },
