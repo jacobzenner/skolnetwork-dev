@@ -9,6 +9,12 @@
                 "PD": "84"
             },
             {
+                "team": "New York Jets",
+                "W": "3",
+                "L": "6",
+                "PD": "-12"
+            },
+            {
                 "team": "Miami Dolphins",
                 "W": "2",
                 "L": "5",
@@ -19,12 +25,6 @@
                 "W": "2",
                 "L": "6",
                 "PD": "-73"
-            },
-            {
-                "team": "New York Jets",
-                "W": "2",
-                "L": "6",
-                "PD": "-20"
             }
         ]
     },
@@ -63,8 +63,8 @@
             {
                 "team": "Houston Texans",
                 "W": "6",
-                "L": "2",
-                "PD": "9"
+                "L": "3",
+                "PD": "1"
             },
             {
                 "team": "Indianapolis Colts",
