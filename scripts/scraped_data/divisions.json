@@ -91,9 +91,9 @@
         "teams": [
             {
                 "team": "Kansas City Chiefs",
-                "W": "7",
+                "W": "8",
                 "L": "0",
-                "PD": "50"
+                "PD": "56"
             },
             {
                 "team": "Los Angeles Chargers",
@@ -185,8 +185,8 @@
             {
                 "team": "Tampa Bay Buccaneers",
                 "W": "4",
-                "L": "4",
-                "PD": "22"
+                "L": "5",
+                "PD": "16"
             },
             {
                 "team": "New Orleans Saints",
