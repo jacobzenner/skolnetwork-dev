@@ -1,128 +1,50 @@
 [
     {
-        "Player":"Mekhi Blackmon",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Garrett Bradbury",
+        "Pos": "C",
+        "Practice Status": "DNP",
+        "Details": "NIR-Rest"
     },
     {
-        "Player":"Christian Darrisaw",
-        "Pos":"OL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Blake Cashman",
+        "Pos": "LB",
+        "Practice Status": "Limited",
+        "Details": "Toe"
     },
     {
-        "Player":"Andrew DePaola",
-        "Pos":"LS",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Akayleb Evans",
+        "Pos": "DB",
+        "Practice Status": "Limited",
+        "Details": "Hip"
     },
     {
-        "Player":"Jeremy Flax",
-        "Pos":"OL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Theo Jackson",
+        "Pos": "DB",
+        "Practice Status": "Full",
+        "Details": "Hand"
     },
     {
-        "Player":"Jordan Kunaszyk",
-        "Pos":"LB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Gabriel Murphy",
+        "Pos": "DL",
+        "Practice Status": "Limited",
+        "Details": "Knee"
     },
     {
-        "Player":"J.J. McCarthy",
-        "Pos":"QB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Josh Oliver",
+        "Pos": "TE",
+        "Practice Status": "Full",
+        "Details": "Wrist"
     },
     {
-        "Player":"Nick Muse",
-        "Pos":"TE",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Ivan Pace",
+        "Pos": "LB",
+        "Practice Status": "DNP",
+        "Details": "Knee"
     },
     {
-        "Player":"Will Reichard",
-        "Pos":"K",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
-    },
-    {
-        "Player":"Taki Taimani",
-        "Pos":"DL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
-    },
-    {
-        "Player":"NaJee Thompson",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
-    },
-    {
-        "Player":"Garrett Bradbury",
-        "Pos":"C",
-        "Practice Status":"DNP",
-        "Status":null,
-        "Details":"NIR-Rest"
-    },
-    {
-        "Player":"Blake Cashman",
-        "Pos":"LB",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Toe"
-    },
-    {
-        "Player":"Akayleb Evans",
-        "Pos":"DB",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Hip"
-    },
-    {
-        "Player":"Theo Jackson",
-        "Pos":"DB",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Hand"
-    },
-    {
-        "Player":"Gabriel Murphy",
-        "Pos":"DL",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Knee"
-    },
-    {
-        "Player":"Josh Oliver",
-        "Pos":"TE",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Wrist"
-    },
-    {
-        "Player":"Ivan Pace",
-        "Pos":"LB",
-        "Practice Status":"DNP",
-        "Status":null,
-        "Details":"Knee"
-    },
-    {
-        "Player":"Andrew Van Ginkel",
-        "Pos":"OLB",
-        "Practice Status":"DNP",
-        "Status":null,
-        "Details":"NIR-Rest"
+        "Player": "Andrew Van Ginkel",
+        "Pos": "OLB",
+        "Practice Status": "DNP",
+        "Details": "NIR-Rest"
     }
 ]
