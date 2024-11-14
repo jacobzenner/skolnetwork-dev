@@ -9,6 +9,12 @@
                 "PD": "97"
             },
             {
+                "team": "Miami Dolphins",
+                "W": "3",
+                "L": "6",
+                "PD": "-55"
+            },
+            {
                 "team": "New England Patriots",
                 "W": "3",
                 "L": "7",
@@ -19,12 +25,6 @@
                 "W": "3",
                 "L": "7",
                 "PD": "-37"
-            },
-            {
-                "team": "Miami Dolphins",
-                "W": "2",
-                "L": "6",
-                "PD": "-63"
             }
         ]
     },
@@ -220,8 +220,8 @@
             {
                 "team": "Los Angeles Rams",
                 "W": "4",
-                "L": "4",
-                "PD": "-24"
+                "L": "5",
+                "PD": "-32"
             },
             {
                 "team": "Seattle Seahawks",
