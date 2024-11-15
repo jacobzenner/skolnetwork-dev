@@ -1,135 +1,56 @@
 [
     {
-        "Player":"Mekhi Blackmon",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Blake Cashman",
+        "Pos": "LB",
+        "Practice Status": "Full",
+        "Details": "Elbow"
     },
     {
-        "Player":"Christian Darrisaw",
-        "Pos":"OL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Sam Darnold",
+        "Pos": "QB",
+        "Practice Status": "Limited",
+        "Details": "Right Hand"
     },
     {
-        "Player":"Andrew DePaola",
-        "Pos":"LS",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Theo Jackson",
+        "Pos": "DB",
+        "Practice Status": "Full",
+        "Details": "Hand"
     },
     {
-        "Player":"Jeremy Flax",
-        "Pos":"OL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Aaron Jones",
+        "Pos": "RB",
+        "Practice Status": "Limited",
+        "Details": "Ribs"
     },
     {
-        "Player":"Jordan Kunaszyk",
-        "Pos":"LB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Gabriel Murphy",
+        "Pos": "DL",
+        "Practice Status": "Limited",
+        "Details": "Knee"
     },
     {
-        "Player":"J.J. McCarthy",
-        "Pos":"QB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Josh Oliver",
+        "Pos": "TE",
+        "Practice Status": "Limited",
+        "Details": "Wrist"
     },
     {
-        "Player":"Nick Muse",
-        "Pos":"TE",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Ivan Pace",
+        "Pos": "LB",
+        "Practice Status": "Full",
+        "Details": "Knee"
     },
     {
-        "Player":"Will Reichard",
-        "Pos":"K",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Cam Robinson",
+        "Pos": "OT",
+        "Practice Status": "Limited",
+        "Details": "Foot"
     },
     {
-        "Player":"Taki Taimani",
-        "Pos":"DL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
-    },
-    {
-        "Player":"NaJee Thompson",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
-    },
-    {
-        "Player":"Blake Cashman",
-        "Pos":"LB",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Elbow"
-    },
-    {
-        "Player":"Sam Darnold",
-        "Pos":"QB",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Right Hand"
-    },
-    {
-        "Player":"Theo Jackson",
-        "Pos":"DB",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Hand"
-    },
-    {
-        "Player":"Aaron Jones",
-        "Pos":"RB",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Ribs"
-    },
-    {
-        "Player":"Gabriel Murphy",
-        "Pos":"DL",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Knee"
-    },
-    {
-        "Player":"Josh Oliver",
-        "Pos":"TE",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Wrist"
-    },
-    {
-        "Player":"Ivan Pace",
-        "Pos":"LB",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Knee"
-    },
-    {
-        "Player":"Cam Robinson",
-        "Pos":"OT",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Foot"
-    },
-    {
-        "Player":"Andrew Van Ginkel",
-        "Pos":"OLB",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Hip"
+        "Player": "Andrew Van Ginkel",
+        "Pos": "OLB",
+        "Practice Status": "Limited",
+        "Details": "Hip"
     }
 ]
