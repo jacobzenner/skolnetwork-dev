@@ -15,16 +15,16 @@
                 "PD": "-55"
             },
             {
-                "team": "New England Patriots",
-                "W": "3",
-                "L": "7",
-                "PD": "-60"
-            },
-            {
                 "team": "New York Jets",
                 "W": "3",
                 "L": "7",
                 "PD": "-37"
+            },
+            {
+                "team": "New England Patriots",
+                "W": "3",
+                "L": "7",
+                "PD": "-60"
             }
         ]
     },
@@ -120,15 +120,15 @@
         "teams": [
             {
                 "team": "Philadelphia Eagles*",
-                "W": "7",
+                "W": "8",
                 "L": "2",
-                "PD": "72"
+                "PD": "80"
             },
             {
                 "team": "Washington Commanders+",
                 "W": "7",
-                "L": "3",
-                "PD": "73"
+                "L": "4",
+                "PD": "65"
             },
             {
                 "team": "Dallas Cowboys",
