@@ -62,9 +62,9 @@
         "teams": [
             {
                 "team": "Houston Texans*",
-                "W": "6",
+                "W": "7",
                 "L": "4",
-                "PD": "-2"
+                "PD": "22"
             },
             {
                 "team": "Indianapolis Colts",
@@ -133,8 +133,8 @@
             {
                 "team": "Dallas Cowboys",
                 "W": "3",
-                "L": "6",
-                "PD": "-82"
+                "L": "7",
+                "PD": "-106"
             },
             {
                 "team": "New York Giants",
