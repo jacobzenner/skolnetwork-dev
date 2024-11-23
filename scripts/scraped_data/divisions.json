@@ -34,8 +34,8 @@
             {
                 "team": "Pittsburgh Steelers*",
                 "W": "8",
-                "L": "2",
-                "PD": "71"
+                "L": "3",
+                "PD": "66"
             },
             {
                 "team": "Baltimore Ravens+",
@@ -51,9 +51,9 @@
             },
             {
                 "team": "Cleveland Browns",
-                "W": "2",
+                "W": "3",
                 "L": "8",
-                "PD": "-86"
+                "PD": "-81"
             }
         ]
     },
