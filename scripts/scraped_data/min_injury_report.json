@@ -1,38 +1,128 @@
 [
     {
-        "Player": "Josh Oliver",
-        "Pos": "TE",
-        "Practice Status": "DNP",
-        "Details": "Wrist"
+        "Player":"Mekhi Blackmon",
+        "Pos":"CB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Gabriel Murphy",
-        "Pos": "DL",
-        "Practice Status": "Full",
-        "Details": "Knee"
+        "Player":"Christian Darrisaw",
+        "Pos":"OL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Nick Muse",
-        "Pos": "TE",
-        "Practice Status": "Full",
-        "Details": "Hand"
+        "Player":"Andrew DePaola",
+        "Pos":"LS",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Jonathan Bullard",
-        "Pos": "DE",
-        "Practice Status": "Full",
-        "Details": "Toe"
+        "Player":"Jeremy Flax",
+        "Pos":"OL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Sam Darnold",
-        "Pos": "QB",
-        "Practice Status": "Full",
-        "Details": "Toe"
+        "Player":"Jordan Kunaszyk",
+        "Pos":"LB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Aaron Jones",
-        "Pos": "RB",
-        "Practice Status": "Full",
-        "Details": "Ribs"
+        "Player":"J.J. McCarthy",
+        "Pos":"QB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"Nick Muse",
+        "Pos":"TE",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"Will Reichard",
+        "Pos":"K",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"Taki Taimani",
+        "Pos":"DL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"NaJee Thompson",
+        "Pos":"CB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"Gabriel Murphy",
+        "Pos":"DL",
+        "Practice Status":"Full",
+        "Status":"Out",
+        "Details":"Knee"
+    },
+    {
+        "Player":"Josh Oliver",
+        "Pos":"TE",
+        "Practice Status":"DNP",
+        "Status":"Out",
+        "Details":"Wrist"
+    },
+    {
+        "Player":"Nick Muse",
+        "Pos":"TE",
+        "Practice Status":"Full",
+        "Status":"Probable",
+        "Details":"Hand"
+    },
+    {
+        "Player":"Jonathan Bullard",
+        "Pos":"DE",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Toe"
+    },
+    {
+        "Player":"Sam Darnold",
+        "Pos":"QB",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Toe"
+    },
+    {
+        "Player":"Stephon Gilmore",
+        "Pos":"CB",
+        "Practice Status":"DNP",
+        "Status":null,
+        "Details":"Rest"
+    },
+    {
+        "Player":"Aaron Jones",
+        "Pos":"RB",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Ribs"
+    },
+    {
+        "Player":"Harrison Smith",
+        "Pos":"FS",
+        "Practice Status":"DNP",
+        "Status":null,
+        "Details":"Rest"
     }
 ]
