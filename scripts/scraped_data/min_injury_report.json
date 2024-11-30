@@ -1,56 +1,135 @@
 [
     {
-        "Player": "Jonathan Bullard",
-        "Pos": "DE",
-        "Practice Status": "DNP",
-        "Details": "Toe"
+        "Player":"Mekhi Blackmon",
+        "Pos":"CB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Kamu Grugier-Hill",
-        "Pos": "OLB",
-        "Practice Status": "Full",
-        "Details": "Shoulder"
+        "Player":"Christian Darrisaw",
+        "Pos":"OL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Patrick Jones II",
-        "Pos": "DL",
-        "Practice Status": "Limited",
-        "Details": "Knee"
+        "Player":"Andrew DePaola",
+        "Pos":"LS",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Josh Oliver",
-        "Pos": "TE",
-        "Practice Status": "DNP",
-        "Details": "Wrist"
+        "Player":"Jeremy Flax",
+        "Pos":"OL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Harrison Phillips",
-        "Pos": "DT",
-        "Practice Status": "Full",
-        "Details": "Rest"
+        "Player":"Jordan Kunaszyk",
+        "Pos":"LB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Brandon Powell",
-        "Pos": "WR",
-        "Practice Status": "Full",
-        "Details": "Ankle"
+        "Player":"J.J. McCarthy",
+        "Pos":"QB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Cam Robinson",
-        "Pos": "OT",
-        "Practice Status": "Limited",
-        "Details": "Foot"
+        "Player":"Ivan Pace",
+        "Pos":"LB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Andrew Van Ginkel",
-        "Pos": "OLB",
-        "Practice Status": "Limited",
-        "Details": "Thigh"
+        "Player":"Will Reichard",
+        "Pos":"K",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Jay Ward",
-        "Pos": "S",
-        "Practice Status": "DNP",
-        "Details": "Elbow"
+        "Player":"Taki Taimani",
+        "Pos":"DL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"NaJee Thompson",
+        "Pos":"CB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"Jonathan Bullard",
+        "Pos":"DE",
+        "Practice Status":"DNP",
+        "Status":null,
+        "Details":"Toe"
+    },
+    {
+        "Player":"Kamu Grugier-Hill",
+        "Pos":"OLB",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Shoulder"
+    },
+    {
+        "Player":"Patrick Jones II",
+        "Pos":"DL",
+        "Practice Status":"Limited",
+        "Status":null,
+        "Details":"Knee"
+    },
+    {
+        "Player":"Josh Oliver",
+        "Pos":"TE",
+        "Practice Status":"DNP",
+        "Status":null,
+        "Details":"Wrist"
+    },
+    {
+        "Player":"Harrison Phillips",
+        "Pos":"DT",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Rest"
+    },
+    {
+        "Player":"Brandon Powell",
+        "Pos":"WR",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Ankle"
+    },
+    {
+        "Player":"Cam Robinson",
+        "Pos":"OT",
+        "Practice Status":"Limited",
+        "Status":null,
+        "Details":"Foot"
+    },
+    {
+        "Player":"Andrew Van Ginkel",
+        "Pos":"OLB",
+        "Practice Status":"Limited",
+        "Status":null,
+        "Details":"Thigh"
+    },
+    {
+        "Player":"Jay Ward",
+        "Pos":"S",
+        "Practice Status":"DNP",
+        "Status":null,
+        "Details":"Elbow"
     }
 ]
