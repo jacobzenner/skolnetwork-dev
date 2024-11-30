@@ -11,8 +11,8 @@
             {
                 "team": "Miami Dolphins",
                 "W": "5",
-                "L": "6",
-                "PD": "-21"
+                "L": "7",
+                "PD": "-34"
             },
             {
                 "team": "New York Jets",
@@ -132,15 +132,15 @@
             },
             {
                 "team": "Dallas Cowboys",
-                "W": "4",
+                "W": "5",
                 "L": "7",
-                "PD": "-98"
+                "PD": "-91"
             },
             {
                 "team": "New York Giants",
                 "W": "2",
-                "L": "9",
-                "PD": "-89"
+                "L": "10",
+                "PD": "-96"
             }
         ]
     },
@@ -149,9 +149,9 @@
         "teams": [
             {
                 "team": "Detroit Lions*",
-                "W": "10",
+                "W": "11",
                 "L": "1",
-                "PD": "177"
+                "PD": "180"
             },
             {
                 "team": "Minnesota Vikings+",
@@ -161,15 +161,15 @@
             },
             {
                 "team": "Green Bay Packers+",
-                "W": "8",
+                "W": "9",
                 "L": "3",
-                "PD": "65"
+                "PD": "78"
             },
             {
                 "team": "Chicago Bears",
                 "W": "4",
-                "L": "7",
-                "PD": "4"
+                "L": "8",
+                "PD": "1"
             }
         ]
     },
