@@ -91,9 +91,9 @@
         "teams": [
             {
                 "team": "Kansas City Chiefs*",
-                "W": "10",
+                "W": "11",
                 "L": "1",
-                "PD": "52"
+                "PD": "54"
             },
             {
                 "team": "Los Angeles Chargers+",
@@ -110,8 +110,8 @@
             {
                 "team": "Las Vegas Raiders",
                 "W": "2",
-                "L": "9",
-                "PD": "-108"
+                "L": "10",
+                "PD": "-110"
             }
         ]
     },
