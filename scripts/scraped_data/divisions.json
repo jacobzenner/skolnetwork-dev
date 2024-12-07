@@ -149,9 +149,9 @@
         "teams": [
             {
                 "team": "Detroit Lions*",
-                "W": "11",
+                "W": "12",
                 "L": "1",
-                "PD": "180"
+                "PD": "183"
             },
             {
                 "team": "Minnesota Vikings+",
@@ -162,8 +162,8 @@
             {
                 "team": "Green Bay Packers+",
                 "W": "9",
-                "L": "3",
-                "PD": "78"
+                "L": "4",
+                "PD": "75"
             },
             {
                 "team": "Chicago Bears",

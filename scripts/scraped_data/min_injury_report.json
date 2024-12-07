@@ -1,142 +1,62 @@
 [
     {
-        "Player":"Mekhi Blackmon",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Jonathan Bullard",
+        "Pos": "DE",
+        "Practice Status": "Full",
+        "Details": "Toe"
     },
     {
-        "Player":"Christian Darrisaw",
-        "Pos":"OL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Blake Cashman",
+        "Pos": "LB",
+        "Practice Status": "Full",
+        "Details": "Knee"
     },
     {
-        "Player":"Andrew DePaola",
-        "Pos":"LS",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Andrew DePaola",
+        "Pos": "LS",
+        "Practice Status": "Full",
+        "Details": "Hand"
     },
     {
-        "Player":"Jeremy Flax",
-        "Pos":"OL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Stephon Gilmore",
+        "Pos": "CB",
+        "Practice Status": "DNP",
+        "Details": "Hamstring"
     },
     {
-        "Player":"Jordan Kunaszyk",
-        "Pos":"LB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Patrick Jones II",
+        "Pos": "DL",
+        "Practice Status": "Limited",
+        "Details": "Knee"
     },
     {
-        "Player":"J.J. McCarthy",
-        "Pos":"QB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Josh Oliver",
+        "Pos": "TE",
+        "Practice Status": "Full",
+        "Details": "Wrist"
     },
     {
-        "Player":"Ivan Pace",
-        "Pos":"LB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Will Reichard",
+        "Pos": "K",
+        "Practice Status": "Full",
+        "Details": "Quad"
     },
     {
-        "Player":"Will Reichard",
-        "Pos":"K",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Dalton Risner",
+        "Pos": "LG",
+        "Practice Status": "Limited",
+        "Details": "Back"
     },
     {
-        "Player":"Taki Taimani",
-        "Pos":"DL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Andrew Van Ginkel",
+        "Pos": "OLB",
+        "Practice Status": "Limited",
+        "Details": "Thigh"
     },
     {
-        "Player":"NaJee Thompson",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
-    },
-    {
-        "Player":"Jonathan Bullard",
-        "Pos":"DE",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Toe"
-    },
-    {
-        "Player":"Blake Cashman",
-        "Pos":"LB",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Knee"
-    },
-    {
-        "Player":"Andrew DePaola",
-        "Pos":"LS",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Hand"
-    },
-    {
-        "Player":"Stephon Gilmore",
-        "Pos":"CB",
-        "Practice Status":"DNP",
-        "Status":null,
-        "Details":"Hamstring"
-    },
-    {
-        "Player":"Patrick Jones II",
-        "Pos":"DL",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Knee"
-    },
-    {
-        "Player":"Josh Oliver",
-        "Pos":"TE",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Wrist"
-    },
-    {
-        "Player":"Will Reichard",
-        "Pos":"K",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Quad"
-    },
-    {
-        "Player":"Dalton Risner",
-        "Pos":"LG",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Back"
-    },
-    {
-        "Player":"Andrew Van Ginkel",
-        "Pos":"OLB",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Thigh"
-    },
-    {
-        "Player":"Jay Ward",
-        "Pos":"S",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Elbow"
+        "Player": "Jay Ward",
+        "Pos": "S",
+        "Practice Status": "Limited",
+        "Details": "Elbow"
     }
 ]
