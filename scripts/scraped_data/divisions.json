@@ -45,9 +45,9 @@
             },
             {
                 "team": "Cincinnati Bengals",
-                "W": "4",
+                "W": "5",
                 "L": "8",
-                "PD": "-5"
+                "PD": "2"
             },
             {
                 "team": "Cleveland Browns",
@@ -133,8 +133,8 @@
             {
                 "team": "Dallas Cowboys",
                 "W": "5",
-                "L": "7",
-                "PD": "-91"
+                "L": "8",
+                "PD": "-98"
             },
             {
                 "team": "New York Giants",
