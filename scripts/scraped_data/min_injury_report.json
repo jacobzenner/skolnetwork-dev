@@ -1,32 +1,93 @@
 [
     {
-        "Player": "Stephon Gilmore",
-        "Pos": "CB",
-        "Practice Status": "DNP",
-        "Details": "Hamstring"
+        "Player":"Mekhi Blackmon",
+        "Pos":"CB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Aaron Jones",
-        "Pos": "RB",
-        "Practice Status": "Limited",
-        "Details": "Back"
+        "Player":"Christian Darrisaw",
+        "Pos":"OL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Patrick Jones II",
-        "Pos": "DL",
-        "Practice Status": "Limited",
-        "Details": "Knee"
+        "Player":"Jeremy Flax",
+        "Pos":"OL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Josh Oliver",
-        "Pos": "TE",
-        "Practice Status": "Full",
-        "Details": "Wrist"
+        "Player":"Jordan Kunaszyk",
+        "Pos":"LB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Andrew Van Ginkel",
-        "Pos": "OLB",
-        "Practice Status": "Limited",
-        "Details": "Hip"
+        "Player":"J.J. McCarthy",
+        "Pos":"QB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"Ivan Pace",
+        "Pos":"LB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"Taki Taimani",
+        "Pos":"DL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"NaJee Thompson",
+        "Pos":"CB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
+    },
+    {
+        "Player":"Stephon Gilmore",
+        "Pos":"CB",
+        "Practice Status":"DNP",
+        "Status":null,
+        "Details":"Hamstring"
+    },
+    {
+        "Player":"Aaron Jones",
+        "Pos":"RB",
+        "Practice Status":"Limited",
+        "Status":null,
+        "Details":"Back"
+    },
+    {
+        "Player":"Patrick Jones II",
+        "Pos":"DL",
+        "Practice Status":"Limited",
+        "Status":null,
+        "Details":"Knee"
+    },
+    {
+        "Player":"Josh Oliver",
+        "Pos":"TE",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Wrist"
+    },
+    {
+        "Player":"Andrew Van Ginkel",
+        "Pos":"OLB",
+        "Practice Status":"Limited",
+        "Status":null,
+        "Details":"Hip"
     }
 ]
