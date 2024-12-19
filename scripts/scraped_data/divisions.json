@@ -110,8 +110,8 @@
             {
                 "team": "Las Vegas Raiders",
                 "W": "2",
-                "L": "11",
-                "PD": "-125"
+                "L": "12",
+                "PD": "-131"
             }
         ]
     },
@@ -154,10 +154,10 @@
                 "PD": "177"
             },
             {
-                "team": "Minnesota Vikings+",
-                "W": "11",
+                "team": "Minnesota Vikings*",
+                "W": "12",
                 "L": "2",
-                "PD": "99"
+                "PD": "117"
             },
             {
                 "team": "Green Bay Packers+",
@@ -168,8 +168,8 @@
             {
                 "team": "Chicago Bears",
                 "W": "4",
-                "L": "9",
-                "PD": "-24"
+                "L": "10",
+                "PD": "-42"
             }
         ]
     },
@@ -184,9 +184,9 @@
             },
             {
                 "team": "Atlanta Falcons",
-                "W": "6",
+                "W": "7",
                 "L": "7",
-                "PD": "-55"
+                "PD": "-49"
             },
             {
                 "team": "New Orleans Saints",
