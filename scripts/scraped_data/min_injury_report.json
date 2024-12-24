@@ -1,68 +1,135 @@
 [
     {
-        "Player": "Stephon Gilmore",
-        "Pos": "CB",
-        "Practice Status": "Full",
-        "Details": "Hamstring"
+        "Player":"Mekhi Blackmon",
+        "Pos":"CB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "C.J. Ham",
-        "Pos": "RB",
-        "Practice Status": "Full",
-        "Details": "Ankle"
+        "Player":"Christian Darrisaw",
+        "Pos":"OL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Patrick Jones II",
-        "Pos": "DL",
-        "Practice Status": "Limited",
-        "Details": "Knee"
+        "Player":"Jeremy Flax",
+        "Pos":"OL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Fabian Moreau",
-        "Pos": "CB",
-        "Practice Status": "DNP",
-        "Details": "Hip"
+        "Player":"Jordan Kunaszyk",
+        "Pos":"LB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Josh Oliver",
-        "Pos": "TE",
-        "Practice Status": "Full",
-        "Details": "Wrist"
+        "Player":"J.J. McCarthy",
+        "Pos":"QB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Brian O'Neill",
-        "Pos": "OT",
-        "Practice Status": "Limited",
-        "Details": "Knee"
+        "Player":"Ivan Pace",
+        "Pos":"LB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Harrison Phillips",
-        "Pos": "DT",
-        "Practice Status": "Limited",
-        "Details": "Knee"
+        "Player":"Taki Taimani",
+        "Pos":"DL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "David Quessenberry",
-        "Pos": "OT",
-        "Practice Status": "Full",
-        "Details": "Oblique"
+        "Player":"NaJee Thompson",
+        "Pos":"CB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Jalen Redmond",
-        "Pos": "DL",
-        "Practice Status": "DNP",
-        "Details": "Concussion"
+        "Player":"Fabian Moreau",
+        "Pos":"CB",
+        "Practice Status":"DNP",
+        "Status":"Out",
+        "Details":"Hip"
     },
     {
-        "Player": "Harrison Smith",
-        "Pos": "FS",
-        "Practice Status": "DNP",
-        "Details": "Foot"
+        "Player":"Jalen Redmond",
+        "Pos":"DL",
+        "Practice Status":"DNP",
+        "Status":"Out",
+        "Details":"Concussion"
     },
     {
-        "Player": "Dallas Turner",
-        "Pos": "LB",
-        "Practice Status": "Full",
-        "Details": "Knee"
+        "Player":"C.J. Ham",
+        "Pos":"RB",
+        "Practice Status":"Limited",
+        "Status":"Questionable",
+        "Details":"Ankle"
+    },
+    {
+        "Player":"Harrison Smith",
+        "Pos":"FS",
+        "Practice Status":"Limited",
+        "Status":"Questionable",
+        "Details":"Foot"
+    },
+    {
+        "Player":"Stephon Gilmore",
+        "Pos":"CB",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Hamstring"
+    },
+    {
+        "Player":"Patrick Jones II",
+        "Pos":"DL",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Knee"
+    },
+    {
+        "Player":"Josh Oliver",
+        "Pos":"TE",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Wrist"
+    },
+    {
+        "Player":"Brian O'Neill",
+        "Pos":"OT",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Knee"
+    },
+    {
+        "Player":"Harrison Phillips",
+        "Pos":"DT",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Knee"
+    },
+    {
+        "Player":"David Quessenberry",
+        "Pos":"OT",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Oblique"
+    },
+    {
+        "Player":"Dallas Turner",
+        "Pos":"LB",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Knee"
     }
 ]
