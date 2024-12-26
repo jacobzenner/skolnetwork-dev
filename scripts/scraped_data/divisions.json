@@ -161,9 +161,9 @@
             },
             {
                 "team": "Green Bay Packers+",
-                "W": "10",
+                "W": "11",
                 "L": "4",
-                "PD": "92"
+                "PD": "126"
             },
             {
                 "team": "Chicago Bears",
@@ -191,8 +191,8 @@
             {
                 "team": "New Orleans Saints",
                 "W": "5",
-                "L": "9",
-                "PD": "-3"
+                "L": "10",
+                "PD": "-37"
             },
             {
                 "team": "Carolina Panthers",
