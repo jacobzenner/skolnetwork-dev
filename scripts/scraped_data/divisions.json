@@ -32,16 +32,16 @@
         "division": "AFC North",
         "teams": [
             {
-                "team": "Pittsburgh Steelers*",
-                "W": "10",
+                "team": "Baltimore Ravens*",
+                "W": "11",
                 "L": "5",
-                "PD": "54"
+                "PD": "132"
             },
             {
-                "team": "Baltimore Ravens*",
+                "team": "Pittsburgh Steelers+",
                 "W": "10",
-                "L": "5",
-                "PD": "103"
+                "L": "6",
+                "PD": "35"
             },
             {
                 "team": "Cincinnati Bengals",
@@ -63,8 +63,8 @@
             {
                 "team": "Houston Texans*",
                 "W": "9",
-                "L": "6",
-                "PD": "20"
+                "L": "7",
+                "PD": "-9"
             },
             {
                 "team": "Indianapolis Colts",
@@ -91,9 +91,9 @@
         "teams": [
             {
                 "team": "Kansas City Chiefs*",
-                "W": "14",
+                "W": "15",
                 "L": "1",
-                "PD": "78"
+                "PD": "97"
             },
             {
                 "team": "Los Angeles Chargers+",
