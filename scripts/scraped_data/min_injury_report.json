@@ -1,50 +1,100 @@
 [
     {
-        "Player": "Blake Cashman",
-        "Pos": "LB",
-        "Practice Status": "Full",
-        "Details": "Hip"
+        "Player":"Mekhi Blackmon",
+        "Pos":"CB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "C.J. Ham",
-        "Pos": "RB",
-        "Practice Status": "Full",
-        "Details": "Ankle"
+        "Player":"Christian Darrisaw",
+        "Pos":"OL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Patrick Jones II",
-        "Pos": "DL",
-        "Practice Status": "Full",
-        "Details": "Knee"
+        "Player":"Jeremy Flax",
+        "Pos":"OL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Fabian Moreau",
-        "Pos": "CB",
-        "Practice Status": "DNP",
-        "Details": "Hip"
+        "Player":"J.J. McCarthy",
+        "Pos":"QB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Josh Oliver",
-        "Pos": "TE",
-        "Practice Status": "Full",
-        "Details": "Wrist"
+        "Player":"Taki Taimani",
+        "Pos":"DL",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Ivan Pace",
-        "Pos": "LB",
-        "Practice Status": "Full",
-        "Details": "Hamstring"
+        "Player":"NaJee Thompson",
+        "Pos":"CB",
+        "Practice Status":null,
+        "Status":"Injured Reserve",
+        "Details":null
     },
     {
-        "Player": "Jalen Redmond",
-        "Pos": "DL",
-        "Practice Status": "Limited",
-        "Details": "Concussion"
+        "Player":"Blake Cashman",
+        "Pos":"LB",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Hip"
     },
     {
-        "Player": "Harrison Smith",
-        "Pos": "FS",
-        "Practice Status": "DNP",
-        "Details": "Foot"
+        "Player":"C.J. Ham",
+        "Pos":"RB",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Ankle"
+    },
+    {
+        "Player":"Patrick Jones II",
+        "Pos":"DL",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Knee"
+    },
+    {
+        "Player":"Fabian Moreau",
+        "Pos":"CB",
+        "Practice Status":"DNP",
+        "Status":null,
+        "Details":"Hip"
+    },
+    {
+        "Player":"Josh Oliver",
+        "Pos":"TE",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Wrist"
+    },
+    {
+        "Player":"Ivan Pace",
+        "Pos":"LB",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Hamstring"
+    },
+    {
+        "Player":"Jalen Redmond",
+        "Pos":"DL",
+        "Practice Status":"Full",
+        "Status":null,
+        "Details":"Concussion"
+    },
+    {
+        "Player":"Harrison Smith",
+        "Pos":"FS",
+        "Practice Status":"Limited",
+        "Status":null,
+        "Details":"Foot"
     }
 ]
