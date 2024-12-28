@@ -168,8 +168,8 @@
             {
                 "team": "Chicago Bears",
                 "W": "4",
-                "L": "11",
-                "PD": "-59"
+                "L": "12",
+                "PD": "-62"
             }
         ]
     },
@@ -213,9 +213,9 @@
             },
             {
                 "team": "Seattle Seahawks",
-                "W": "8",
+                "W": "9",
                 "L": "7",
-                "PD": "-1"
+                "PD": "2"
             },
             {
                 "team": "Arizona Cardinals",
