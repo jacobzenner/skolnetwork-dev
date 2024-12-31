@@ -4,21 +4,21 @@
         "teams": [
             {
                 "team": "Buffalo Bills*",
-                "W": "12",
+                "W": "13",
                 "L": "3",
-                "PD": "138"
+                "PD": "164"
             },
             {
                 "team": "Miami Dolphins",
-                "W": "7",
+                "W": "8",
                 "L": "8",
-                "PD": "-24"
+                "PD": "-7"
             },
             {
                 "team": "New York Jets",
                 "W": "4",
-                "L": "11",
-                "PD": "-52"
+                "L": "12",
+                "PD": "-78"
             },
             {
                 "team": "New England Patriots",
@@ -52,8 +52,8 @@
             {
                 "team": "Cleveland Browns",
                 "W": "3",
-                "L": "12",
-                "PD": "-135"
+                "L": "13",
+                "PD": "-152"
             }
         ]
     },
@@ -69,20 +69,20 @@
             {
                 "team": "Indianapolis Colts",
                 "W": "7",
-                "L": "8",
-                "PD": "-41"
+                "L": "9",
+                "PD": "-53"
             },
             {
                 "team": "Jacksonville Jaguars",
-                "W": "3",
+                "W": "4",
                 "L": "12",
-                "PD": "-119"
+                "PD": "-112"
             },
             {
                 "team": "Tennessee Titans",
                 "W": "3",
-                "L": "12",
-                "PD": "-133"
+                "L": "13",
+                "PD": "-140"
             }
         ]
     },
@@ -109,9 +109,9 @@
             },
             {
                 "team": "Las Vegas Raiders",
-                "W": "3",
+                "W": "4",
                 "L": "12",
-                "PD": "-126"
+                "PD": "-111"
             }
         ]
     },
@@ -120,27 +120,27 @@
         "teams": [
             {
                 "team": "Philadelphia Eagles*",
-                "W": "12",
+                "W": "13",
                 "L": "3",
-                "PD": "119"
+                "PD": "153"
             },
             {
                 "team": "Washington Commanders+",
-                "W": "10",
+                "W": "11",
                 "L": "5",
-                "PD": "84"
+                "PD": "90"
             },
             {
                 "team": "Dallas Cowboys",
                 "W": "7",
-                "L": "8",
-                "PD": "-80"
+                "L": "9",
+                "PD": "-114"
             },
             {
                 "team": "New York Giants",
-                "W": "2",
+                "W": "3",
                 "L": "13",
-                "PD": "-147"
+                "PD": "-135"
             }
         ]
     },
@@ -148,22 +148,22 @@
         "division": "NFC North",
         "teams": [
             {
-                "team": "Detroit Lions*",
+                "team": "Minnesota Vikings*",
+                "W": "14",
+                "L": "2",
+                "PD": "122"
+            },
+            {
+                "team": "Detroit Lions+",
                 "W": "13",
                 "L": "2",
                 "PD": "194"
             },
             {
-                "team": "Minnesota Vikings*",
-                "W": "13",
-                "L": "2",
-                "PD": "120"
-            },
-            {
                 "team": "Green Bay Packers+",
                 "W": "11",
-                "L": "4",
-                "PD": "126"
+                "L": "5",
+                "PD": "124"
             },
             {
                 "team": "Chicago Bears",
@@ -177,28 +177,28 @@
         "division": "NFC South",
         "teams": [
             {
-                "team": "Atlanta Falcons*",
-                "W": "8",
+                "team": "Tampa Bay Buccaneers*",
+                "W": "9",
                 "L": "7",
-                "PD": "-22"
+                "PD": "109"
             },
             {
-                "team": "Tampa Bay Buccaneers",
+                "team": "Atlanta Falcons",
                 "W": "8",
-                "L": "7",
-                "PD": "75"
+                "L": "8",
+                "PD": "-28"
             },
             {
                 "team": "New Orleans Saints",
                 "W": "5",
-                "L": "10",
-                "PD": "-37"
+                "L": "11",
+                "PD": "-52"
             },
             {
                 "team": "Carolina Panthers",
                 "W": "4",
-                "L": "11",
-                "PD": "-165"
+                "L": "12",
+                "PD": "-199"
             }
         ]
     },
