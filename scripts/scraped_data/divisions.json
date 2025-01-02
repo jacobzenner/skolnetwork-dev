@@ -148,16 +148,16 @@
         "division": "NFC North",
         "teams": [
             {
+                "team": "Detroit Lions*",
+                "W": "14",
+                "L": "2",
+                "PD": "200"
+            },
+            {
                 "team": "Minnesota Vikings*",
                 "W": "14",
                 "L": "2",
                 "PD": "122"
-            },
-            {
-                "team": "Detroit Lions+",
-                "W": "13",
-                "L": "2",
-                "PD": "194"
             },
             {
                 "team": "Green Bay Packers+",
@@ -226,8 +226,8 @@
             {
                 "team": "San Francisco 49ers",
                 "W": "6",
-                "L": "9",
-                "PD": "-18"
+                "L": "10",
+                "PD": "-24"
             }
         ]
     }
