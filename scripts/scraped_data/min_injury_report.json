@@ -1,93 +1,44 @@
 [
     {
-        "Player":"Mekhi Blackmon",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Kamu Grugier-Hill",
+        "Pos": "OLB",
+        "Practice Status": "DNP",
+        "Details": "Illness"
     },
     {
-        "Player":"Christian Darrisaw",
-        "Pos":"OL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "C.J. Ham",
+        "Pos": "RB",
+        "Practice Status": "Limited",
+        "Details": "Quad"
     },
     {
-        "Player":"Jeremy Flax",
-        "Pos":"OL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Aaron Jones",
+        "Pos": "RB",
+        "Practice Status": "Limited",
+        "Details": "Quad"
     },
     {
-        "Player":"J.J. McCarthy",
-        "Pos":"QB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Patrick Jones II",
+        "Pos": "DL",
+        "Practice Status": "DNP",
+        "Details": "Knee"
     },
     {
-        "Player":"Taki Taimani",
-        "Pos":"DL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Fabian Moreau",
+        "Pos": "CB",
+        "Practice Status": "Limited",
+        "Details": "Hip"
     },
     {
-        "Player":"NaJee Thompson",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Josh Oliver",
+        "Pos": "TE",
+        "Practice Status": "Full",
+        "Details": "Wrist"
     },
     {
-        "Player":"Kamu Grugier-Hill",
-        "Pos":"OLB",
-        "Practice Status":"DNP",
-        "Status":null,
-        "Details":"Illness"
-    },
-    {
-        "Player":"C.J. Ham",
-        "Pos":"RB",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Quad"
-    },
-    {
-        "Player":"Aaron Jones",
-        "Pos":"RB",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Quad"
-    },
-    {
-        "Player":"Patrick Jones II",
-        "Pos":"DL",
-        "Practice Status":"DNP",
-        "Status":null,
-        "Details":"Knee"
-    },
-    {
-        "Player":"Fabian Moreau",
-        "Pos":"CB",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Hip"
-    },
-    {
-        "Player":"Josh Oliver",
-        "Pos":"TE",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Wrist"
-    },
-    {
-        "Player":"Harrison Smith",
-        "Pos":"FS",
-        "Practice Status":"Limited",
-        "Status":null,
-        "Details":"Foot"
+        "Player": "Harrison Smith",
+        "Pos": "FS",
+        "Practice Status": "Limited",
+        "Details": "Foot"
     }
 ]
