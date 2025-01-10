@@ -1,107 +1,56 @@
 [
     {
-        "Player":"Mekhi Blackmon",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Patrick Jones II",
+        "Pos": "DL",
+        "Practice Status": "DNP",
+        "Details": "Knee"
     },
     {
-        "Player":"Christian Darrisaw",
-        "Pos":"OL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Kamu Grugier-Hill",
+        "Pos": "OLB",
+        "Practice Status": "DNP",
+        "Details": "Illness"
     },
     {
-        "Player":"Jeremy Flax",
-        "Pos":"OL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Fabian Moreau",
+        "Pos": "CB",
+        "Practice Status": "Limited",
+        "Details": "Hip"
     },
     {
-        "Player":"J.J. McCarthy",
-        "Pos":"QB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Stephon Gilmore",
+        "Pos": "CB",
+        "Practice Status": "DNP",
+        "Details": "Rest"
     },
     {
-        "Player":"Taki Taimani",
-        "Pos":"DL",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "C.J. Ham",
+        "Pos": "RB",
+        "Practice Status": "Full",
+        "Details": "Quad"
     },
     {
-        "Player":"NaJee Thompson",
-        "Pos":"CB",
-        "Practice Status":null,
-        "Status":"Injured Reserve",
-        "Details":null
+        "Player": "Ed Ingram",
+        "Pos": "G",
+        "Practice Status": "Full",
+        "Details": "Back"
     },
     {
-        "Player":"Patrick Jones II",
-        "Pos":"DL",
-        "Practice Status":"DNP",
-        "Status":"Out",
-        "Details":"Knee"
+        "Player": "Aaron Jones",
+        "Pos": "RB",
+        "Practice Status": "Full",
+        "Details": "Quad"
     },
     {
-        "Player":"Kamu Grugier-Hill",
-        "Pos":"OLB",
-        "Practice Status":"DNP",
-        "Status":"Questionable",
-        "Details":"Illness"
+        "Player": "Josh Oliver",
+        "Pos": "TE",
+        "Practice Status": "Full",
+        "Details": "Wrist"
     },
     {
-        "Player":"Fabian Moreau",
-        "Pos":"CB",
-        "Practice Status":"Limited",
-        "Status":"Questionable",
-        "Details":"Hip"
-    },
-    {
-        "Player":"Stephon Gilmore",
-        "Pos":"CB",
-        "Practice Status":"DNP",
-        "Status":null,
-        "Details":"Rest"
-    },
-    {
-        "Player":"C.J. Ham",
-        "Pos":"RB",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Quad"
-    },
-    {
-        "Player":"Ed Ingram",
-        "Pos":"G",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Back"
-    },
-    {
-        "Player":"Aaron Jones",
-        "Pos":"RB",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Quad"
-    },
-    {
-        "Player":"Josh Oliver",
-        "Pos":"TE",
-        "Practice Status":"Full",
-        "Status":null,
-        "Details":"Wrist"
-    },
-    {
-        "Player":"Harrison Smith",
-        "Pos":"FS",
-        "Practice Status":"DNP",
-        "Status":null,
-        "Details":"Foot"
+        "Player": "Harrison Smith",
+        "Pos": "FS",
+        "Practice Status": "DNP",
+        "Details": "Foot"
     }
 ]
