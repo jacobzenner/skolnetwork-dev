@@ -2,8 +2,8 @@ name: Invalidate CloudFront
 
 on:
   workflow_dispatch: # Allows manual trigger of the action
-  schedule:
-    - cron: '0 12 * * 4,5,6,1,2' # Optional: Runs every day at 12:00 UTC (adjust as needed)
+  #schedule:
+    #- cron: '0 12 * * 4,5,6,1,2' # Optional: Runs every day at 12:00 UTC (adjust as needed)
 
 jobs:
   invalidate:
