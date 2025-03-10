@@ -1,6 +1,6 @@
 # Skol Network Website
 
-This repository contains the code for the Skol Network website, accessible at [skolnetwork.com](https://www.skolnetwork.com). The website is hosted in an AWS S3 bucket and distributed globally using AWS CloudFront for faster loading times. GitHub Actions are used to manage web scraping, deployment, and cache invalidation processes. Website data dynamically updated using python web-scraping, deployed through github actions.
+This repository contains the code for the Skol Network website, accessible at [skolnetwork.com](https://www.skolnetwork.com). The website is hosted in an AWS S3 bucket and distributed globally using AWS CloudFront for faster loading times. GitHub Actions are used to manage python web scraping, deployment, and cache invalidation processes.
 
 ## Website Overview
 The Skol Network website is dedicated to providing statistical data, news, articles, and updates on the Minnesota Vikings and NFC North teams. It features sections such as:
