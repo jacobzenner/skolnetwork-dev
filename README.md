@@ -18,7 +18,7 @@ Data for the website is automatically updated by scraping content from relevant 
 ### Scraping Details
 - **Tooling**: The scraping process utilizes Selenium to navigate and extract HTML content, which is then parsed with Pandas to generate JSON files.
 - **Sources**: The data is scraped from sources such as [Pro-Football-Reference](https://www.pro-football-reference.com), targeting relevant tables like NFC, AFC, injury reports, and player stats.
-- **Scripts**: The scraping logic is contained in scripts like `scrape.py` and `Lscrape.py`, with tables extracted by ID and saved to JSON files. For example:
+- **Scripts**: The scraping logic is contained in scripts like `scrape.py` and `Lscrape.py`(scripts preceeded with L signify it being built to run locally, not from the repo), with tables extracted by ID and saved to JSON files. For example:
   - `NFC` and `AFC` divisions are saved as `NFC.json` and `AFC.json` respectively.
   - Player stats and injury reports are extracted from team pages.
 
